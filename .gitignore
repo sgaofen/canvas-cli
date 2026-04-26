@@ -1,0 +1,26 @@
+# Virtualenv (uv)
+.venv/
+
+# Python build / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.so
+
+# Project-local artifacts
+*.partial
+.canvas-manifest.json
+.search-index.sqlite
+.extract.json
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Lockfile (uv) — let users resolve fresh; keep small repo
+uv.lock
