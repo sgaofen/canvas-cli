@@ -14,8 +14,10 @@ from .commands import grades as grades_cmd
 from .commands import inbox as inbox_cmd
 from .commands import modules as modules_cmd
 from .commands import pages as pages_cmd
+from .commands import ping as ping_cmd
 from .commands import read as read_cmd
 from .commands import search as search_cmd
+from .commands import submit as submit_cmd
 from .commands import syllabus as syllabus_cmd
 from .commands import sync as sync_cmd
 from .config import init_config
@@ -47,6 +49,8 @@ app.command(name="calendar")(calendar_cmd.calendar)
 app.command(name="search")(search_cmd.search)
 app.command(name="inbox")(inbox_cmd.inbox)
 app.command(name="extract")(extract_cmd.extract)
+app.command(name="submit")(submit_cmd.submit)
+app.command(name="ping")(ping_cmd.ping)
 
 
 @app.command()

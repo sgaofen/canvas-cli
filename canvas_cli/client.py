@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from canvasapi import Canvas
 from canvasapi.exceptions import CanvasException, InvalidAccessToken, Unauthorized
+from requests.exceptions import JSONDecodeError as _RequestsJSONDecodeError
 import typer
 from rich.console import Console
 
@@ -32,6 +33,13 @@ def get_current_user():
             "Token may be invalid or expired. Run [cyan]canvas init[/cyan] to update."
         )
         raise typer.Exit(code=1)
+    except _RequestsJSONDecodeError:
+        console.print(
+            "[red]Canvas API returned non-JSON.[/red] "
+            "Server may be down or redirecting to a status page. "
+            "Run [cyan]canvas ping[/cyan] to diagnose."
+        )
+        raise typer.Exit(code=1)
     except CanvasException as exc:
         console.print(f"[red]Canvas API error:[/red] {exc}")
         raise typer.Exit(code=1)
@@ -51,6 +59,12 @@ def get_user_courses(active_only: bool = True, include: list[str] | None = None)
         kwargs["include"] = include
     try:
         courses = list(user.get_courses(**kwargs))
+    except _RequestsJSONDecodeError:
+        console.print(
+            "[red]Canvas API returned non-JSON.[/red] "
+            "Run [cyan]canvas ping[/cyan] to diagnose."
+        )
+        raise typer.Exit(code=1)
     except CanvasException as exc:
         console.print(f"[red]Failed to fetch courses:[/red] {exc}")
         raise typer.Exit(code=1)

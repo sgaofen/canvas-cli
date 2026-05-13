@@ -117,3 +117,49 @@ def resolve_course(courses: list, query: str):
         console.print("[red]Invalid choice.[/red]")
         raise typer.Exit(code=1)
     return matches[choice - 1]
+
+
+def resolve_assignment(course, query: str):
+    """Find an assignment within a course by numeric id or name substring.
+
+    Same disambiguation flow as resolve_course: exact id wins; otherwise
+    substring match; multiple matches prompt the user to pick.
+    """
+    from canvasapi.exceptions import CanvasException, ResourceDoesNotExist
+
+    if query.isdigit():
+        try:
+            return course.get_assignment(int(query))
+        except (ResourceDoesNotExist, CanvasException):
+            pass  # fall through
+
+    needle = query.lower().strip()
+    try:
+        assigns = list(course.get_assignments())
+    except CanvasException as exc:
+        console.print(f"[red]Failed to fetch assignments:[/red] {exc}")
+        raise typer.Exit(code=1)
+
+    matches = [a for a in assigns if needle in (getattr(a, "name", "") or "").lower()]
+
+    if not matches:
+        console.print(f"[red]No assignment matches[/red] '[bold]{query}[/bold]'.")
+        console.print("[dim]Available assignments:[/dim]")
+        for a in assigns[:20]:
+            console.print(f"  {getattr(a, 'id', '?')}  {getattr(a, 'name', '?')}")
+        if len(assigns) > 20:
+            console.print(f"  [dim]... +{len(assigns) - 20} more[/dim]")
+        raise typer.Exit(code=1)
+
+    if len(matches) == 1:
+        return matches[0]
+
+    console.print(f"[yellow]Multiple assignments match[/yellow] '[bold]{query}[/bold]':")
+    for i, a in enumerate(matches, 1):
+        due = getattr(a, "due_at", None) or "—"
+        console.print(f"  [cyan]{i}[/cyan]. {getattr(a, 'name', '?')} (id={a.id}, due={due})")
+    choice = typer.prompt("Pick number", type=int)
+    if not 1 <= choice <= len(matches):
+        console.print("[red]Invalid choice.[/red]")
+        raise typer.Exit(code=1)
+    return matches[choice - 1]
