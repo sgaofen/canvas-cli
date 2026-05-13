@@ -119,6 +119,21 @@ canvas submit <course> <assignment> --text "..." -y          # skip confirm
 canvas ping            # is Canvas reachable + token valid?
 canvas ping --json     # structured for agent / script use
 ```
+
+### Take a quiz from the terminal
+```bash
+canvas quizzes <course> --open      # list quizzes that still need points
+canvas quiz <course> <quiz>         # show metadata (read-only)
+canvas quiz <course> <quiz> --take  # interactive: prompt for each question, save, complete
+canvas quiz <course> <quiz> --take --answers answers.json
+canvas quiz <course> <quiz> --take --dry-run    # don't call complete
+canvas quiz <course> <quiz> --take -y           # skip the "complete?" confirm
+```
+- Falls back to the assignments API when the Quizzes tab is hidden by faculty
+- Resumes an existing untaken attempt instead of starting a fresh one (preserves attempt count)
+- Supports multiple_choice, true_false, multiple_answers, short_answer, essay
+- For other types (numerical, calculated, matching, file_upload) prints a notice — use Canvas web UI
+- `--answers` JSON shape: `{"<question_id>": <answer_value>, ...}` where answer_value is an answer-option `id` for MC, a list of ids for multi-select, or a string for text
 Distinguishes:
 - HTTP 200 + JSON → API reachable, authenticated
 - 30x off-domain → Canvas outage (UCI redirects to OIT status page)
