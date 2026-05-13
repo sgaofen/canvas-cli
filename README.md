@@ -98,6 +98,33 @@ canvas inbox --all --limit 20
 canvas inbox --json
 ```
 
+### Submit an assignment
+```bash
+canvas submit <course> <assignment> --text "my answer here"
+canvas submit <course> <assignment> --text-file ~/essay.md
+canvas submit <course> <assignment> --url https://example.com/repo
+canvas submit <course> <assignment> --file lab3.pdf --file data.csv
+canvas submit <course> <assignment> --text "..." --comment "first pass"
+canvas submit <course> <assignment> --text "..." --dry-run  # preview only
+canvas submit <course> <assignment> --text "..." -y          # skip confirm
+```
+- `<assignment>` accepts numeric id or name substring (interactive disambiguation on multiple matches)
+- Text submissions are Markdown-rendered to HTML by default; use `--no-markdown` to send as preformatted text
+- File uploads go through Canvas's two-step upload flow automatically
+- The command validates `submission_types` against what the assignment accepts before any API write
+- Default prompts for confirmation since submission is irreversible from the student side
+
+### Health check
+```bash
+canvas ping            # is Canvas reachable + token valid?
+canvas ping --json     # structured for agent / script use
+```
+Distinguishes:
+- HTTP 200 + JSON → API reachable, authenticated
+- 30x off-domain → Canvas outage (UCI redirects to OIT status page)
+- 401 / 403 → Token rejected
+- Network error → unreachable
+
 ### Extract — full course knowledge base in one shot
 ```bash
 canvas extract chem3lc                  # syllabus + pages + modules + files + assignments + announcements
