@@ -15,6 +15,7 @@ from .commands import inbox as inbox_cmd
 from .commands import modules as modules_cmd
 from .commands import pages as pages_cmd
 from .commands import ping as ping_cmd
+from .commands import quiz as quiz_cmd
 from .commands import read as read_cmd
 from .commands import search as search_cmd
 from .commands import submit as submit_cmd
@@ -51,6 +52,8 @@ app.command(name="inbox")(inbox_cmd.inbox)
 app.command(name="extract")(extract_cmd.extract)
 app.command(name="submit")(submit_cmd.submit)
 app.command(name="ping")(ping_cmd.ping)
+app.command(name="quizzes")(quiz_cmd.quizzes)
+app.command(name="quiz")(quiz_cmd.quiz)
 
 
 @app.command()
