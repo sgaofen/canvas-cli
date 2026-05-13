@@ -133,7 +133,22 @@ canvas quiz <course> <quiz> --take -y           # skip the "complete?" confirm
 - Resumes an existing untaken attempt instead of starting a fresh one (preserves attempt count)
 - Supports multiple_choice, true_false, multiple_answers, short_answer, essay
 - For other types (numerical, calculated, matching, file_upload) prints a notice — use Canvas web UI
-- `--answers` JSON shape: `{"<question_id>": <answer_value>, ...}` where answer_value is an answer-option `id` for MC, a list of ids for multi-select, or a string for text
+- `--answers` JSON shape: `{"<question_id>": <answer_value>, ...}`. Per question type:
+
+| `question_type` | `<answer_value>` shape | Notes |
+|---|---|---|
+| `multiple_choice_question` | `<option_id>` (int) | from `qq.answers[i].id` |
+| `true_false_question` | `<option_id>` (int) | True/False are just two options |
+| `multiple_answers_question` | `[<option_id>, ...]` (list of ints) | checkbox-style |
+| `matching_question` | `{"<left_id>": <right_match_id>, ...}` (dict) | canvas-cli converts to `[{answer_id, match_id}, ...]` automatically |
+| `short_answer_question` | `"text"` (str) | exact text answer |
+| `essay_question` | `"text"` (str) | auto-wrapped in `<p>` if not already HTML |
+| `numerical_question` | `"3.14"` (numeric str) | accepts string, int, or float |
+| `calculated_question` | `"3.14"` (numeric str) | same as numerical |
+| `fill_in_multiple_blanks_question` | `{"<blank_name>": "text", ...}` (dict) | blank names found in question text |
+| `multiple_dropdowns_question` | `{"<blank_name>": <option_id>, ...}` (dict) | option ids from `qq.answers` grouped by `blank_id` |
+| `file_upload_question` | `<file_id>` or `[<file_id>, ...]` | pre-upload file via Canvas web; only file ids accepted for now |
+| `text_only_question` | — | informational; skip entirely |
 Distinguishes:
 - HTTP 200 + JSON → API reachable, authenticated
 - 30x off-domain → Canvas outage (UCI redirects to OIT status page)
