@@ -303,11 +303,21 @@ def quiz(
             console.print(f"[bold]Q{i}[/bold] [dim]({qtype}, id={qid})[/dim]")
             console.print(Markdown(qtext) if qtext else "[dim](no text)[/dim]")
 
+        # text_only_question is purely informational — no answer required
+        if qtype == "text_only_question":
+            if not json_out:
+                console.print("  [dim](informational only — no answer needed)[/dim]\n")
+            continue
+
         # Pre-supplied answer wins
         if qid in answer_map:
             user_answer = answer_map[qid]
+            # Essay answers must be HTML; auto-wrap plain text from --answers
+            if qtype == "essay_question" and isinstance(user_answer, str) and "<" not in user_answer:
+                user_answer = f"<p>{_html.escape(user_answer)}</p>"
             if not json_out:
-                console.print(f"  → using --answers entry: {user_answer!r}")
+                preview = user_answer if isinstance(user_answer, str) else str(user_answer)
+                console.print(f"  → using --answers entry: {preview[:120]!r}")
         else:
             user_answer = _prompt_for_answer(qq, qtype, json_out=json_out)
 
