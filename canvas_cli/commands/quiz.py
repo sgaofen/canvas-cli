@@ -311,10 +311,7 @@ def quiz(
 
         # Pre-supplied answer wins
         if qid in answer_map:
-            user_answer = answer_map[qid]
-            # Essay answers must be HTML; auto-wrap plain text from --answers
-            if qtype == "essay_question" and isinstance(user_answer, str) and "<" not in user_answer:
-                user_answer = f"<p>{_html.escape(user_answer)}</p>"
+            user_answer = _normalize_answer_payload(qtype, answer_map[qid])
             if not json_out:
                 preview = user_answer if isinstance(user_answer, str) else str(user_answer)
                 console.print(f"  → using --answers entry: {preview[:120]!r}")
@@ -393,54 +390,258 @@ def _prompt_for_answer(qq, qtype: str, json_out: bool):
     """Render question options and prompt the user for an answer.
 
     Returns the answer value in the shape Canvas expects, or None to skip.
+    Dispatches to per-type handlers — each handler is responsible for
+    displaying its own options/blanks and returning a Canvas-shaped value.
+    """
+    handler = _TYPE_HANDLERS.get(qtype)
+    if handler is None:
+        err_console.print(
+            f"  [yellow]Question type {qtype!r} not supported; "
+            "use Canvas web UI for this one.[/yellow]"
+        )
+        return None
+    return handler(qq)
+
+
+def _normalize_answer_payload(qtype: str, value):
+    """Convert a friendly --answers JSON value into the Canvas API shape.
+
+    Friendly shapes accepted:
+      essay_question                     str  →  <p>str</p>
+      matching_question                  {answer_id: match_id} dict
+                                         →  [{answer_id, match_id}, ...]
+      file_upload_question               int / list[int]  →  list[int]
+                                         (file ids; uploading by path is not
+                                          yet supported — pre-upload + pass id)
+
+    Anything already in Canvas shape (or a string that looks like HTML)
+    is passed through unchanged.
+    """
+    if value is None:
+        return None
+    if qtype == "essay_question" and isinstance(value, str) and "<" not in value:
+        return f"<p>{_html.escape(value)}</p>"
+    if qtype == "matching_question" and isinstance(value, dict):
+        return [
+            {"answer_id": str(k), "match_id": str(v)}
+            for k, v in value.items()
+        ]
+    if qtype == "file_upload_question":
+        if isinstance(value, int):
+            return [value]
+        if isinstance(value, list):
+            return [int(v) for v in value]
+    return value
+
+
+# ---------- per-type interactive prompt handlers ----------
+
+def _prompt_mc_single(qq):
+    """multiple_choice_question / true_false_question → option id (int)."""
+    answers = getattr(qq, "answers", None) or []
+    if not answers:
+        err_console.print("  [yellow](no answer options returned)[/yellow]")
+        return None
+    for idx, a in enumerate(answers):
+        letter = chr(ord("A") + idx)
+        text = _html_to_text(a.get("html") or a.get("text") or "")
+        console.print(f"  [cyan]{letter}[/cyan]. {text}  [dim](id={a.get('id')})[/dim]")
+    raw = typer.prompt("  → letter or 'skip'", default="skip").strip().upper()
+    if raw == "SKIP" or not raw:
+        return None
+    if len(raw) == 1 and "A" <= raw <= "Z":
+        i = ord(raw) - ord("A")
+        if 0 <= i < len(answers):
+            return int(answers[i]["id"])
+    err_console.print(f"  [yellow]Invalid choice {raw!r}, skipping[/yellow]")
+    return None
+
+
+def _prompt_mc_multi(qq):
+    """multiple_answers_question → list[int] of option ids."""
+    answers = getattr(qq, "answers", None) or []
+    if not answers:
+        return None
+    for idx, a in enumerate(answers):
+        letter = chr(ord("A") + idx)
+        text = _html_to_text(a.get("html") or a.get("text") or "")
+        console.print(f"  [cyan]{letter}[/cyan]. {text}  [dim](id={a.get('id')})[/dim]")
+    raw = typer.prompt("  → letters (comma-separated) or 'skip'", default="skip").strip()
+    if raw.lower() == "skip":
+        return None
+    picks: list[int] = []
+    for token in re.split(r"[,\s]+", raw):
+        token = token.strip().upper()
+        if len(token) == 1 and "A" <= token <= "Z":
+            i = ord(token) - ord("A")
+            if 0 <= i < len(answers):
+                picks.append(int(answers[i]["id"]))
+    return picks or None
+
+
+def _prompt_matching(qq):
+    """matching_question → [{answer_id, match_id}, ...].
+
+    Canvas returns:
+      answers: [{id, text}, ...]    ← left column (prompts to match)
+      matches: [{match_id, text}, ...]  ← right pool (options)
     """
     answers = getattr(qq, "answers", None) or []
-    # Show option list for MC / TF / MA
-    if qtype in ("multiple_choice_question", "true_false_question", "multiple_answers_question"):
-        if not answers:
-            err_console.print("  [yellow](no answer options returned)[/yellow]")
-            return None
-        for idx, a in enumerate(answers):
-            letter = chr(ord("A") + idx)
-            text = _html_to_text(a.get("html") or a.get("text") or "")
-            console.print(f"  [cyan]{letter}[/cyan]. {text}  [dim](id={a.get('id')})[/dim]")
-        if qtype == "multiple_answers_question":
-            raw = typer.prompt(
-                "  → letters (comma-separated) or 'skip'", default="skip"
-            ).strip()
-            if raw.lower() == "skip":
-                return None
-            picks: list[int] = []
-            for token in re.split(r"[,\s]+", raw):
-                token = token.strip().upper()
-                if not token:
-                    continue
-                if len(token) == 1 and "A" <= token <= "Z":
-                    i = ord(token) - ord("A")
-                    if 0 <= i < len(answers):
-                        picks.append(int(answers[i]["id"]))
-            return picks or None
-        else:
-            raw = typer.prompt("  → letter or 'skip'", default="skip").strip().upper()
-            if raw == "SKIP" or not raw:
-                return None
-            if len(raw) == 1 and "A" <= raw <= "Z":
-                i = ord(raw) - ord("A")
-                if 0 <= i < len(answers):
-                    return int(answers[i]["id"])
-            err_console.print(f"  [yellow]Invalid choice {raw!r}, skipping[/yellow]")
-            return None
+    matches = getattr(qq, "matches", None) or []
+    if not answers or not matches:
+        err_console.print("  [yellow](missing matching data)[/yellow]")
+        return None
 
-    if qtype in ("short_answer_question", "essay_question"):
-        raw = typer.prompt("  → answer (or 'skip')", default="skip")
+    console.print("\n  [bold]Right-side options:[/bold]")
+    for i, m in enumerate(matches):
+        letter = chr(ord("A") + i)
+        console.print(
+            f"    [cyan]{letter}[/cyan]. {_html_to_text(m.get('text', ''))}"
+            f"  [dim](match_id={m.get('match_id')})[/dim]"
+        )
+
+    pairs = []
+    for left in answers:
+        text = _html_to_text(left.get("text", ""))
+        console.print(f"\n  Match for: [yellow]{text}[/yellow]")
+        raw = typer.prompt("    → letter or 'skip'", default="skip").strip().upper()
+        if raw == "SKIP" or not raw:
+            continue
+        if len(raw) == 1 and "A" <= raw <= "Z":
+            i = ord(raw) - ord("A")
+            if 0 <= i < len(matches):
+                pairs.append({
+                    "answer_id": str(left["id"]),
+                    "match_id": str(matches[i]["match_id"]),
+                })
+    return pairs or None
+
+
+def _prompt_short_answer(qq):
+    """short_answer_question → str."""
+    raw = typer.prompt("  → answer (or 'skip')", default="skip")
+    return None if raw.strip().lower() == "skip" or not raw.strip() else raw
+
+
+def _prompt_essay(qq):
+    """essay_question → HTML string wrapped in <p>."""
+    raw = typer.prompt("  → essay (or 'skip')", default="skip")
+    if raw.strip().lower() == "skip" or not raw.strip():
+        return None
+    return f"<p>{_html.escape(raw)}</p>"
+
+
+def _prompt_numerical(qq):
+    """numerical_question / calculated_question → numeric string."""
+    raw = typer.prompt("  → number (or 'skip')", default="skip")
+    if raw.strip().lower() == "skip":
+        return None
+    try:
+        float(raw)
+    except ValueError:
+        err_console.print(f"  [yellow]{raw!r} is not a number, skipping[/yellow]")
+        return None
+    return raw
+
+
+def _prompt_fill_blanks(qq):
+    """fill_in_multiple_blanks_question → {blank_name: text}.
+
+    Canvas marks blanks inline in question_text with [blank_name] tokens.
+    Discover them by inspecting the answers array: each answer has a
+    `blank_id` (the blank name) and a possible canonical text.
+    """
+    blank_names = _blank_names_from_answers(getattr(qq, "answers", None) or [])
+    if not blank_names:
+        err_console.print("  [yellow](no blanks found)[/yellow]")
+        return None
+    out: dict[str, str] = {}
+    for name in blank_names:
+        raw = typer.prompt(f"  → [{name}] (or 'skip')", default="skip")
         if raw.strip().lower() == "skip" or not raw.strip():
-            return None
-        if qtype == "essay_question":
-            return f"<p>{_html.escape(raw)}</p>"
-        return raw
+            continue
+        out[name] = raw
+    return out or None
 
-    err_console.print(
-        f"  [yellow]Question type {qtype!r} not supported in canvas-cli; "
-        "use Canvas web UI for this one.[/yellow]"
-    )
-    return None
+
+def _prompt_multi_dropdowns(qq):
+    """multiple_dropdowns_question → {blank_name: option_id}.
+
+    Each answer item has blank_id (which dropdown) + id (option id) + text.
+    Group by blank_id, show options letter-indexed within each group.
+    """
+    answers = getattr(qq, "answers", None) or []
+    if not answers:
+        return None
+    by_blank: dict[str, list[dict]] = {}
+    for a in answers:
+        bid = a.get("blank_id") or a.get("blank_name") or "default"
+        by_blank.setdefault(bid, []).append(a)
+
+    out: dict[str, int] = {}
+    for blank, opts in by_blank.items():
+        console.print(f"\n  Blank [yellow][{blank}][/yellow]:")
+        for i, a in enumerate(opts):
+            letter = chr(ord("A") + i)
+            text = _html_to_text(a.get("text", ""))
+            console.print(
+                f"    [cyan]{letter}[/cyan]. {text}  [dim](id={a.get('id')})[/dim]"
+            )
+        raw = typer.prompt("    → letter or 'skip'", default="skip").strip().upper()
+        if raw == "SKIP" or not raw:
+            continue
+        if len(raw) == 1 and "A" <= raw <= "Z":
+            i = ord(raw) - ord("A")
+            if 0 <= i < len(opts):
+                out[blank] = int(opts[i]["id"])
+    return out or None
+
+
+def _prompt_file_upload(qq):
+    """file_upload_question → list[int] of pre-uploaded file ids.
+
+    Uploading from local path inline is not yet wired up here — Canvas
+    requires a two-step upload via the submission's own files endpoint,
+    which differs from the assignment upload path. For now, ask the user
+    for already-uploaded file IDs (or use the Canvas web UI).
+    """
+    raw = typer.prompt(
+        "  → file id(s), comma-separated (or 'skip', or 'web' to use Canvas web UI)",
+        default="skip",
+    ).strip().lower()
+    if raw in ("skip", "web", ""):
+        if raw == "web":
+            console.print(
+                "  [dim]File upload via terminal not yet implemented — "
+                "upload via Canvas web and re-run with --answers JSON.[/dim]"
+            )
+        return None
+    ids: list[int] = []
+    for tok in re.split(r"[,\s]+", raw):
+        if tok.isdigit():
+            ids.append(int(tok))
+    return ids or None
+
+
+def _blank_names_from_answers(answers: list[dict]) -> list[str]:
+    seen: list[str] = []
+    for a in answers:
+        name = a.get("blank_id") or a.get("blank_name")
+        if name and name not in seen:
+            seen.append(name)
+    return seen
+
+
+_TYPE_HANDLERS: dict[str, callable] = {
+    "multiple_choice_question": _prompt_mc_single,
+    "true_false_question": _prompt_mc_single,
+    "multiple_answers_question": _prompt_mc_multi,
+    "matching_question": _prompt_matching,
+    "short_answer_question": _prompt_short_answer,
+    "essay_question": _prompt_essay,
+    "numerical_question": _prompt_numerical,
+    "calculated_question": _prompt_numerical,
+    "fill_in_multiple_blanks_question": _prompt_fill_blanks,
+    "multiple_dropdowns_question": _prompt_multi_dropdowns,
+    "file_upload_question": _prompt_file_upload,
+}
