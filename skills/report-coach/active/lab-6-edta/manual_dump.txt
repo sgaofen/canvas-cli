@@ -1,0 +1,63 @@
+[0]  COMPLEXATION REACTIONS AND EDTA TITRATIONS
+[2] Learning Objectives
+[4] The following are the learning objectives for this lab:
+[5] Students will standardize EDTA with a known concentration of MgCl2.
+[6] Students will determine the concentration of an unknown MgCl2 solution from an EDTA titration tracked by absorbance.
+[7] Students will determine the concentration of an unknown MgCl2 solution using HQS and a fluorescence calibration curve.
+[9] Additional Resources
+[10] Linear Calibration Sample Spreadsheet
+[11] Confidence Intervals Sample Spreadsheet
+[12] For more details of the experiment, students can read the following:
+[13] Yappert, M.C.; DuPré, D.B. J. Chem. Educ. “Complexometric Titrations: Competition of Complexing Agents in the Determination of Water Hardness with EDTA,” 1997, 74(12), 1422–1423.
+[14] Dahm, C.E.; Hall, J. W. J. Chem. Educ. “A Laser-Pointer-Based Spectrometer for Endpoint Detection of EDTA Titrations,” 2004, 81(12), 1787–1789.
+[15] Soroka, K.; Vithanage, R.S.; Phillops, D.A.; Walker, B.; Dasgupta, P.K. Anal. Chem. “Fluorescence Properties of Metal Complexes of 8-Hydroxyquinoline-5-sulfonic Acid and Chromatographic Applications,” 1967, 59, 629–636.
+[16] Skoog, West, Holler, Crouch. “Chapter 17: Complexation and Precipitation Reactions and Titrations.” Fundamentals of Analytical Chemistry.
+[18] Background
+[19] Using EDTA to Determine Mg2+ Concentration
+[20] Ethylenediaminetetraacetic acid (EDTA) is a powerful complexing agent frequently used in analytical chemistry. EDTA will chelate many metal ions in a one-to-one ratio which allows for the quantitative determination of metal ion concentration. Once such metal ion is Mg2+, commonly found in hard water.
+[22] EDTA is commonly denoted as H4Y in the fully protonated state and as Y4-­ in the fully deprotonated state.  The formation constants of EDTA complexes change as a function of pH. Ideally, a pH should be chosen where the concentration of Y4- is the highest, a pH 12 or greater. However, at pH values greater than 10, Mg2+ ions begin to precipitate as Mg(OH)2 which cannot react with EDTA. Therefore, solutions of Mg2+ are buffered to a pH of 10 to prevent precipitation but maximize the concentration of Y4-.
+[23] One way to measure the concentration of metal-ions using EDTA is with a spectroscopic titration. However, neither EDTA nor its complexes are colored. Instead, indicators such as Calmagite are used to track the endpoint of the titration. Calmagite is added to the analyte and will bind to Mg2+ to produce a wine-red color. As EDTA is titrated into the solution, free Mg2+ ions are chelated to form MgY2- complexes. Once all the free ions are chelated, EDTA will remove the bound Mg2+ from Calmagite since the MgY2- complex (Kf ≈ 108­) has a higher formation constant, Kf, than the Mg2+-Calmagite complex (Kf ≈ 105). The color of the solution then changes from red to blue as all the Mg2+ is removed from the indicator. Thus, the endpoint of the titration is when the EDTA has bound all the Mg2+ ions, all the red color has disappeared, and the solution has turned blue.
+[25] Spectroscopy is used to track the color changes as the titration proceeds. Visually, it can be difficult to see exactly when the solution changes from red to blue. However, the absorption spectra of these two solutions are very different (Fig. 1). The red solutions (A) show high absorbance around 500 nm while the blue solutions (B) show high absorbance closer to 600 nm. Plotting the absorbance at the λmax of the blue solution as a function of volume of EDTA added will produce a titration curve from which the endpoint can be determined graphically. At the λmax of solution B, the absorbance will be low for the red solutions that have the metal ions complexed to Calmagite. Once the solution turns blue and all the metal ions are bound to EDTA, the absorbance at the λmax of solution B will increase, denoting the endpoint (Fig. 2). At the endpoint, the moles of EDTA added are equal to the moles of Mg2+ originally in the solution.
+[27] Figure 1: Absorbance spectra of a solution of Mg2+-Calmagite (A) and a solution of MgY2- and free Calmagite (B).
+[29] Figure 2: Determination of the endpoint from plotting absorbance at λmax of solution B vs. volume of EDTA added.
+[30] Using HQS to Determine Mg2+ Concentration
+[31] 8-hydroxyquinoline-5-sulfonic acid (HQS) is another chelating agent that will form strong complexes with metal-ions. When HQS chelates a metal-ion, the metal-HQS complex will fluoresce. Among the most fluorescent complexes is the Mg-HQS complex. The complexing properties of HQS are also dependent on pH, with a pH of 8 being optimal for the highest Mg-HQS complex fluorescence intensity. Solutions of different concentrations of Mg-HQS can be used to create a fluorescence calibration curve to determine the concentration of Mg in an unknown solution.
+[33] Safety
+[35] Safety goggles and aprons must be worn in lab at all times. Store all waste in a correctly labeled waste container.
+[37] Procedures
+[39] Part A: Standardization of EDTA by Titration with 0.01 M MgCl2
+[41] Rough Titration
+[42] Into one 150 mL beaker that contains a magnetic stir bar, pour 25 mL of 0.01 M MgCl2 solution, 1 mL of NH4OH buffer, and 10 drops of Calmagite.  Put the beaker on a stir plate. Record the exact concentration of the MgCl2.
+[43] Turn the stir plate on and set it to a medium stirring speed (i.e. 3 – 5).
+[44] Clamp a burette, filled with 0.0100 M EDTA, above the beaker.
+[45] Titrate slowly.  Titrate in 10 mL increments until you reach 20 mL. Then, titrate in 0.5 mL increments until the first color change happens.  Record the color of the solution after each addition of EDTA and the volume of the first color change. 
+[46] Continue to add more titrant in 0.2 mL increments until the 2nd color change happens.  This is the end point.  Record the color after each addition and record the volume of EDTA at the end point.  
+[47] Add another 5 mL of EDTA titrant. Record the color.
+[49] Careful Titration with Absorbance Data
+[50] Into a new 150 mL beaker that contains a magnetic stir bar, pour 25 mL of 0.01 M MgCl2 solution, 1 mL of NH4OH buffer, and 10 drops of Calmagite.  Put the beaker on a stir plate. Record the exact concentration of the MgCl2.
+[51] Turn the stir plate on and set it to a medium stirring speed (i.e. 3 – 5).
+[52] Clamp a burette, filled with 0.0100 M EDTA, above the beaker.
+[53] Plug the spectrometer into your computer and calibrate with DI water. 
+[54] Use a clean plastic pipet to transfer about 3 mL of the solution in the beaker to a clean, dry cuvette.
+[55] Place the cuvette in the spectrometer and measure the absorbance spectrum.
+[56] Carefully pour the solution in the cuvette back into the beaker and then use a pipet to transfer the remaining solution from the cuvette into the beaker.
+[57] Titrate slowly.  Repeat step 5 – 7 after 10 mL and 20 mL of EDTA titrant is added. Use the “Store Latest Run” option to overlay your spectra onto the same file. Then,  repeat steps 5 – 7 as you titrate in 0.5 mL increments until the first color change happens.  Record information about the color change.
+[58] When approaching the 2nd color change, carefully add EDTA titrant dropwise so that you can obtain a precise value for the volume. Repeat steps 5 – 7 after every 0.5 mL added. Record the exact volume of EDTA at the end point.  Take an absorbance spectrum at the end point.
+[59] Add another 5 mL of EDTA titrant.  Repeat steps 5 – 7. Record the wavelength of max absorbance for this spectrum. This will be the wavelength you use to track the titration.
+[60] Share the volume added to reach the endpoint here.
+[62] Part B: EDTA Titrations of Unknown MgCl2
+[64] The stockroom will provide a solution with an unknown concentration of MgCl2.  Repeat the procedures in Part A with this solution. Share the volume added to reach the endpoint here.
+[66] Part C: HQS Fluorescence
+[68] Prepare the solution for a fluorescence measurement.  Use a micropipette to transfer a 500 μL aliquot of unknown solution from the hood to a flask with 25 mL of 1 mM HQS solution.  Mix the solution thoroughly.  Use a plastic pipet to transfer a few drops of the solution above onto pH paper.  Record the color and pH of the solution. Notify your TA if the pH is not 8 or the solution is colorless.
+[69] Absorbance Spectrum
+[70] Open Logger Pro.  If the program does not automatically recognize the spectrometer, unplug it and plug it back in.  Go to Experiment and choose Calibrate.  Let the lamp warm up for at least 90 seconds.  When the spectrometer is ready, fill a clean cuvette with water to use as a blank.
+[71] Transfer 1.5 mL of the solution made in Step 1 in a pre-rinsed cuvette.  Press the Collect button.  Once the spectrum is acquired, press Stop.  Rinse the cuvette.  Save the spectrum.  Examine the spectrum, and then chose the best excitation wavelength.  Recall that the best wavelength is where the solution absorbs more light (higher absorbance).
+[72] Fluorescence Spectrum
+[73] Go to Experiment and choose Calibrate.  Let the lamp warm up for at least 90 seconds.  When the spectrometer is ready, fill a clean cuvette with 1 mM HQS solution to use as a blank.
+[74] Go to Experiment and choose Change Units.  Change the units to fluorescence, selecting the appropriate fluorescence wavelength.
+[75] Transfer 1.5 mL of the solution made in Step 1 into a pre-rinsed cuvette.  Press Start.  Wait a few seconds and then record the wavelength of maximum fluorescence and the fluorescence intensity at that wavelength. 
+[76] Check to make sure that the unknown signal falls within the calibration range (0.032-0.085 rel). If the absorbance is too high, remake the solution from step C.1 with less MgCl2 unknown. If it is too low, remake the solution from step C.1 with more MgCl2 unknown. Save the spectrum.  Remove the cuvette, and rinse it well.  Save all spectra, because the data is needed for your lab report.
+[77] Share your volume of unknown in your solution and fluorescence value of the unknown solution here. 
+[78] Plot the standard data below as fluorescence intensity versus concentration of MgCl2 to create a calibration curve. Use the plot to determine the MgCl2 concentration of the unknown solution.
+[82] Part D: Shutting Down
+[84] The solutions produced during this lab should be poured into the waste container located in a fume hood.  Please turn off the program and disconnect the spectrometer from the computer (following proper steps for disconnecting USB powered hardware). Return kits to the stockroom with clean glassware.

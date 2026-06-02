@@ -1,0 +1,25 @@
+[0] Lab 6: Complexation Reactions and EDTA Titrations 
+[2] Data Analysis
+[4] Part A
+[6] Using your data from the careful titration with 0.01 M  MgCl2, create an overlaid absorbance spectra of the MgCl2 solution at all of the titration points. Be sure to label all axes, the λ used to track the titration, and the identity of the solution in each spectrum in a legend. Include a descriptive figure caption below your figure. 
+[8] Using the absorbance data from your careful titration of 0.01 M  MgCl2, create a plot of absorbance at the chosen λ vs. volume of EDTA added. Be sure to label all axes and the endpoint: (volume, absorbance). Include a descriptive figure caption below your figure. 
+[10] Using at least five values of the volume of EDTA required to reach the endpoint from the shared data in Part A, calculate the average EDTA concentration and the 95% confidence interval. Show all work, use appropriate significant figures, and don’t forget units.
+[12] Part B
+[14] Using your data from the careful titration of the unknown MgCl2 solution, create an overlaid absorbance spectra of the MgCl2 solution at all of the titration points. Be sure to label all axes, the λ used to track the titration, and the identity of the solution in each spectrum in a legend. Include a descriptive figure caption below your figure. 
+[16] Using the data from the careful titration of the unknown MgCl2 solution, create a plot of absorbance at the chosen λ vs. volume of EDTA.  Be sure to label all axes and the endpoint: (volume, absorbance). Include a descriptive figure caption below your figure. 
+[18] Using at least five values of the volume of EDTA required to reach the endpoint from the shared data in Part B, find the average MgCl2 concentration and the 95% confidence interval. Use the concentration of EDTA determined in Q3 in your calculations. Show all work, use appropriate significant figures, and don’t forget units.
+[20] Part C
+[22] Create an absorbance spectrum of the MgCl2 and HQS solution. Be sure to label all axes, λmax, and include a descriptive figure caption below your figure. 
+[24] What λexcitation (405 nm or 500 nm) should be used for the fluorescence measurements? Why?
+[26] Create a fluorescence spectrum of the unknown MgCl2 with HQS solution. Be sure to label all axes, λemission, and include a descriptive figure caption below your figure. 
+[28] Using the data provided in the manual, plot a calibration curve of fluorescence intensity versus MgCl2 concentration (M).  Include your line of best fit and R2 on the plot. Properly format the plot and include a descriptive figure caption below your figure.
+[30] Determine the slope and 95% confidence interval as well as the y-intercept and 95% confidence interval for the calibration curve in Q10.
+[32] Using at least five values of the unknown MgCl2  fluorescence shared data in Part C, calculate the average concentration of MgCl2 and the 95% CI. Make sure to use fluorescence values for solutions that were made in the same way (same volume of MgCl2 unknown). You should use the linear statistics spreadsheet for this question. Show all work, use appropriate significant figures, and don’t forget units.
+[35] Discussion
+[37] The true concentration of the unknown MgCl2 will be given to you by your TA. Calculate the percent errors for each method. Show one example calculation. Which method was more accurate?
+[39] Hypothesize one reason for error in each method.
+[41] Describe what is happening to Mg2+ in the solution described in Parts A/B before any EDTA is added and before and after the endpoint of the titration with EDTA is reached.
+[43] Describe what is happening to Mg2+ before and after HQS is added in Part C.
+[45] Instrumentation
+[47] What is HQS? How is it different from EDTA?
+[49] Why do we use a buffer in Parts A and B? Why do we check pH in Part C? Explain why the pH matters for each experiment.

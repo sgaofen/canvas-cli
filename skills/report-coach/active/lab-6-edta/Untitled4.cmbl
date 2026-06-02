@@ -1,0 +1,5945 @@
+﻿<Document>
+  <FileCoherence>1</FileCoherence>
+  <Version>3.16.2</Version>
+  <charset>utf-8</charset>
+  <ApplicationBuildDateTime>Mar  8 2021 07:58:58</ApplicationBuildDateTime>
+  <FileName>Untitled4.cmbl</FileName>
+  <FileIDString>2026/5/15 19:35:43Your name here26427832</FileIDString>
+  <CreatorOS>2</CreatorOS>
+  <CreatorApp>1</CreatorApp>
+  <AbsoluteVersion>1</AbsoluteVersion>
+  <Radians>1</Radians>
+  <NumDerivativePoints>7</NumDerivativePoints>
+  <NumSmoothingPoints>7</NumSmoothingPoints>
+  <ShowZeroOnToolbar>0</ShowZeroOnToolbar>
+  <ShowDataMarkOnToolbar>0</ShowDataMarkOnToolbar>
+  <ShowGraphMatchOnToolbar>0</ShowGraphMatchOnToolbar>
+  <GraphMatchUseConstant>1</GraphMatchUseConstant>
+  <GraphMatchUseLinear>1</GraphMatchUseLinear>
+  <GraphMatchUseQuadratic>1</GraphMatchUseQuadratic>
+  <GraphMatchNumSections>0</GraphMatchNumSections>
+  <Stationery>0</Stationery>
+  <CreationDateTime>2026/5/15 18:33:32</CreationDateTime>
+  <ModifiedDateTime>2026/5/15 19:46:49</ModifiedDateTime>
+  <PageBounds>0 0 16.2291666667 9.33333333333</PageBounds>
+  <ScreenResolution>0 0 3119 2079</ScreenResolution>
+  <MathType>0</MathType>
+  <AllowOptionsDialogs>1</AllowOptionsDialogs>
+  <AllowAutoCurveFit>1</AllowAutoCurveFit>
+  <ReplayWindowPosition>0 85 169 627 462 1</ReplayWindowPosition>
+  <ReplayWindowSpeed>1</ReplayWindowSpeed>
+  <ReplayWindowRepeat>0</ReplayWindowRepeat>
+  <SensorConflictEnabled>1</SensorConflictEnabled>
+  <MathConstantValue>3.141592653590</MathConstantValue>
+  <MathConstantNumPlaces>3</MathConstantNumPlaces>
+  <MathConstantIncrement>1.000000000000</MathConstantIncrement>
+  <MathConstantEditable>0</MathConstantEditable>
+  <MathConstantUnits></MathConstantUnits>
+  <MathConstantName>pi</MathConstantName>
+  <Page>
+    <ID>295 </ID>
+    <BroadcastTo>0 </BroadcastTo>
+    <Visible>1</Visible>
+    <PageTitle></PageTitle>
+    <PageColor>0xcccc 0xcccc 0xffff| 0xffff 0x1d</PageColor>
+    <PageDisplayPageInfo>0 </PageDisplayPageInfo>
+    <PagePageInfo></PagePageInfo>
+    <PageGraphPaper>0 </PageGraphPaper>
+    <PageGraphPaperLineSpacing>0.25 </PageGraphPaperLineSpacing>
+    <PageGraphPaperLineColor>0x8484 0x7070 0xffff| 0xffff 0x1e</PageGraphPaperLineColor>
+    <PageReplayWindowPosition>0 85 169 627 462</PageReplayWindowPosition>
+    <PageGraphCartesian>
+      <ID>301 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>3.07576822917 0.0075 16.2216666667 4.65916666667 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
+      <AddNewData>0</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>1</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 0 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Arial</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <GraphTitle></GraphTitle>
+      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x2e</GraphTitleColor>
+      <GraphShowPoints>0</GraphShowPoints>
+      <GraphInterpolate>0</GraphInterpolate>
+      <GraphShowTangent>0</GraphShowTangent>
+      <GraphShowLegend>0</GraphShowLegend>
+      <GraphShowCursorStatus>1</GraphShowCursorStatus>
+      <GraphShowCursorDelta>1</GraphShowCursorDelta>
+      <GraphPlotBaseColumnID>316 </GraphPlotBaseColumnID>
+      <GraphPlotTraceIDPairs>1 316 318 </GraphPlotTraceIDPairs>
+      <LogXAxis>0</LogXAxis>
+      <LogYAxis>0</LogYAxis>
+      <LogRightYAxis>0</LogRightYAxis>
+      <GraphShowTraceErrorBars>1</GraphShowTraceErrorBars>
+      <GraphShowBaseErrorBars>1</GraphShowBaseErrorBars>
+      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>
+      <GraphConnectLines>1</GraphConnectLines>
+      <GraphBarGraph>0</GraphBarGraph>
+      <BinGraphStackColumns>0</BinGraphStackColumns>
+      <GraphShowPointProtectors>0</GraphShowPointProtectors>
+      <GraphMajorTickStyle>1</GraphMajorTickStyle>
+      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x2b</GraphMajorTickColor>
+      <GraphMinorTickStyle>0</GraphMinorTickStyle>
+      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x2b</GraphMinorTickColor>
+      <GraphPlotXAutoscale>2</GraphPlotXAutoscale>
+      <GraphPlotYAutoscale>2</GraphPlotYAutoscale>
+      <GraphPlotDoubleYAutoscale>2</GraphPlotDoubleYAutoscale>
+      <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>
+      <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>
+      <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>
+      <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>
+      <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>
+      <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>
+      <GraphPlotXMin>300</GraphPlotXMin>
+      <GraphPlotXMax>900</GraphPlotXMax>
+      <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>
+      <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>
+      <GraphPlotYMin>-0.007</GraphPlotYMin>
+      <GraphPlotYMax>0.012</GraphPlotYMax>
+      <GraphPlotDefaultXMin>380</GraphPlotDefaultXMin>
+      <GraphPlotDefaultXMax>900</GraphPlotDefaultXMax>
+      <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>
+      <GraphPlotDefaultYMax>1.5</GraphPlotDefaultYMax>
+      <GraphPlotXLabel></GraphPlotXLabel>
+      <GraphPlotYLabel></GraphPlotYLabel>
+      <GraphDrawRainbow>1</GraphDrawRainbow>
+      <AudioTraceIDs>1 318 </AudioTraceIDs>
+      <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>
+    </PageGraphCartesian>
+    <PageTable>
+      <ID>302 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>0.005625 0.005625 3.06264322917 9.32770833333 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0x2a</BackgroundColor>
+      <AddNewData>1</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>0</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 2 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Arial</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <TableColumn> 324 0.8 </TableColumn>
+      <TableColumn> 326 0.8 </TableColumn>
+      <TableColumn> 316 0.8 </TableColumn>
+      <TableColumn> 318 0.8 </TableColumn>
+      <TableColumn> 330 0.8 </TableColumn>
+      <TableColumn> 332 0.8 </TableColumn>
+      <TableColumn> 335 0.8 </TableColumn>
+      <TableColumn> 337 0.8 </TableColumn>
+      <StartIndex> 0 </StartIndex>
+      <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
+    </PageTable>
+    <PageGraphCartesian>
+      <ID>328 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>3.07576822917 4.67416666667 16.2216666667 9.32583333333 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
+      <AddNewData>0</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>1</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 0 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Arial</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <GraphTitle></GraphTitle>
+      <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x2e</GraphTitleColor>
+      <GraphShowPoints>0</GraphShowPoints>
+      <GraphInterpolate>0</GraphInterpolate>
+      <GraphShowTangent>0</GraphShowTangent>
+      <GraphShowLegend>0</GraphShowLegend>
+      <GraphShowCursorStatus>1</GraphShowCursorStatus>
+      <GraphShowCursorDelta>1</GraphShowCursorDelta>
+      <GraphPlotBaseColumnID>324 </GraphPlotBaseColumnID>
+      <GraphPlotTraceIDPairs>3 330 332 335 337 324 326 </GraphPlotTraceIDPairs>
+      <LogXAxis>0</LogXAxis>
+      <LogYAxis>0</LogYAxis>
+      <LogRightYAxis>0</LogRightYAxis>
+      <GraphShowTraceErrorBars>1</GraphShowTraceErrorBars>
+      <GraphShowBaseErrorBars>1</GraphShowBaseErrorBars>
+      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>
+      <GraphConnectLines>1</GraphConnectLines>
+      <GraphBarGraph>0</GraphBarGraph>
+      <BinGraphStackColumns>0</BinGraphStackColumns>
+      <GraphShowPointProtectors>0</GraphShowPointProtectors>
+      <GraphMajorTickStyle>1</GraphMajorTickStyle>
+      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x2b</GraphMajorTickColor>
+      <GraphMinorTickStyle>0</GraphMinorTickStyle>
+      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x2b</GraphMinorTickColor>
+      <GraphPlotXAutoscale>2</GraphPlotXAutoscale>
+      <GraphPlotYAutoscale>2</GraphPlotYAutoscale>
+      <GraphPlotDoubleYAutoscale>2</GraphPlotDoubleYAutoscale>
+      <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>
+      <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>
+      <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>
+      <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>
+      <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>
+      <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>
+      <GraphPlotXMin>300</GraphPlotXMin>
+      <GraphPlotXMax>900</GraphPlotXMax>
+      <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>
+      <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>
+      <GraphPlotYMin>0.014</GraphPlotYMin>
+      <GraphPlotYMax>0.026</GraphPlotYMax>
+      <GraphPlotDefaultXMin>380</GraphPlotDefaultXMin>
+      <GraphPlotDefaultXMax>900</GraphPlotDefaultXMax>
+      <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>
+      <GraphPlotDefaultYMax>1</GraphPlotDefaultYMax>
+      <GraphPlotXLabel></GraphPlotXLabel>
+      <GraphPlotYLabel></GraphPlotYLabel>
+      <GraphDrawRainbow>0</GraphDrawRainbow>
+      <AudioTraceIDs>3 332 337 326 </AudioTraceIDs>
+      <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>
+    </PageGraphCartesian>
+  </Page>
+  <CurrentPageIndex>0</CurrentPageIndex>
+  <DataSet>
+    <ID>315 </ID>
+    <BroadcastTo>1 302 </BroadcastTo>
+    <Visible>1</Visible>
+    <DataSetName>Run 1</DataSetName>
+    <DataSetComments></DataSetComments>
+    <DataSetPosition>34</DataSetPosition>
+    <DataSetSourceName></DataSetSourceName>
+    <DataSetShowInDataBrowser>1</DataSetShowInDataBrowser>
+    <DataSetHistogram>0</DataSetHistogram>
+    <DataSetFFT>0</DataSetFFT>
+    <DataSetLatest>0</DataSetLatest>
+    <DataSetAutoCreated>0</DataSetAutoCreated>
+    <DataSetStoredRun>1</DataSetStoredRun>
+    <DataSetPrediction>0</DataSetPrediction>
+    <DataSetVideoAnalysis>0</DataSetVideoAnalysis>
+    <DataSetGraphMatch>0</DataSetGraphMatch>
+    <Metadata>
+      <DataMark>
+      </DataMark>
+      <DataTag>
+      </DataTag>
+    </Metadata>
+    <DataColumn>
+      <ID>316 </ID>
+      <BroadcastTo>4 17 301 302 328 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>Wavelength</DataObjectName>
+      <DataObjectShortName>λ</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>1</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>0</DataObjectThickLines>
+      <ColumnUnits>nm</ColumnUnits>
+      <ColumnCollectionTimeUnit>1</ColumnCollectionTimeUnit>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>1</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1778898962</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>0</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>0</ColumnSensorColumn>
+      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>
+      <ColumnMatchTag></ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>4</ColumnLastDataCollectedMode>
+      <ColumnGroupID>311</ColumnGroupID>
+      <ColumnCells>
+380.6
+381.4
+382.3
+383.2
+384
+384.9
+385.7
+386.6
+387.4
+388.3
+389.2
+390
+390.9
+391.7
+392.6
+393.4
+394.3
+395.2
+396
+396.9
+397.7
+398.6
+399.4
+400.3
+401.2
+402
+402.9
+403.7
+404.6
+405.4
+406.3
+407.2
+408
+408.9
+409.7
+410.6
+411.4
+412.3
+413.1
+414
+414.9
+415.7
+416.6
+417.4
+418.3
+419.1
+420
+420.9
+421.7
+422.6
+423.4
+424.3
+425.1
+426
+426.9
+427.7
+428.6
+429.4
+430.3
+431.1
+432
+432.9
+433.7
+434.6
+435.4
+436.3
+437.1
+438
+438.9
+439.7
+440.6
+441.4
+442.3
+443.1
+444
+444.9
+445.7
+446.6
+447.4
+448.3
+449.1
+450
+450.9
+451.7
+452.6
+453.4
+454.3
+455.1
+456
+456.9
+457.7
+458.6
+459.4
+460.3
+461.1
+462
+462.9
+463.7
+464.6
+465.4
+466.3
+467.1
+468
+468.9
+469.7
+470.6
+471.4
+472.3
+473.1
+474
+474.9
+475.7
+476.6
+477.4
+478.3
+479.1
+480
+480.9
+481.7
+482.6
+483.4
+484.3
+485.1
+486
+486.9
+487.7
+488.6
+489.4
+490.3
+491.1
+492
+492.9
+493.7
+494.6
+495.4
+496.3
+497.1
+498
+498.8
+499.7
+500.6
+501.4
+502.3
+503.1
+504
+504.8
+505.7
+506.6
+507.4
+508.3
+509.1
+510
+510.8
+511.7
+512.6
+513.4
+514.2
+515
+515.8
+516.6
+517.4
+518.2
+519
+519.8
+520.6
+521.4
+522.3
+523.1
+523.9
+524.7
+525.5
+526.3
+527.1
+527.9
+528.7
+529.5
+530.3
+531.1
+532
+532.8
+533.6
+534.4
+535.2
+536
+536.8
+537.6
+538.4
+539.2
+540
+540.8
+541.7
+542.5
+543.3
+544.1
+544.9
+545.7
+546.5
+547.3
+548.1
+548.9
+549.7
+550.5
+551.4
+552.2
+553
+553.8
+554.6
+555.4
+556.2
+557
+557.8
+558.6
+559.4
+560.2
+561.1
+561.9
+562.7
+563.5
+564.3
+565.1
+565.9
+566.7
+567.5
+568.3
+569.1
+570
+570.8
+571.6
+572.4
+573.2
+574
+574.8
+575.6
+576.4
+577.2
+578
+578.8
+579.7
+580.5
+581.3
+582.1
+582.9
+583.7
+584.5
+585.3
+586.1
+586.9
+587.7
+588.5
+589.2
+590
+590.7
+591.5
+592.2
+593
+593.7
+594.4
+595.2
+595.9
+596.7
+597.4
+598.2
+598.9
+599.7
+600.4
+601.1
+601.9
+602.6
+603.4
+604.1
+604.9
+605.6
+606.4
+607.1
+607.8
+608.6
+609.3
+610.1
+610.8
+611.6
+612.3
+613
+613.8
+614.5
+615.3
+616
+616.8
+617.5
+618.3
+619
+619.7
+620.5
+621.2
+622
+622.7
+623.5
+624.2
+625
+625.7
+626.4
+627.2
+627.9
+628.7
+629.4
+630.2
+630.9
+631.6
+632.4
+633.1
+633.9
+634.6
+635.4
+636.1
+636.9
+637.6
+638.3
+639.1
+639.8
+640.6
+641.3
+642.1
+642.8
+643.6
+644.3
+645
+645.8
+646.5
+647.3
+648
+648.8
+649.5
+650.2
+651
+651.7
+652.5
+653.2
+654
+654.7
+655.5
+656.2
+656.9
+657.7
+658.4
+659.2
+659.9
+660.7
+661.4
+662.2
+662.9
+663.6
+664.4
+665.1
+665.9
+666.6
+667.4
+668.1
+668.9
+669.7
+670.4
+671.2
+672
+672.7
+673.5
+674.2
+675
+675.8
+676.5
+677.3
+678.1
+678.8
+679.6
+680.4
+681.1
+681.9
+682.7
+683.4
+684.2
+685
+685.7
+686.5
+687.2
+688
+688.8
+689.5
+690.3
+691.1
+691.8
+692.6
+693.4
+694.1
+694.9
+695.7
+696.4
+697.2
+698
+698.7
+699.5
+700.2
+701
+701.8
+702.5
+703.3
+704.1
+704.8
+705.6
+706.4
+707.1
+707.9
+708.7
+709.5
+710.3
+711.1
+711.9
+712.7
+713.5
+714.3
+715.1
+715.9
+716.7
+717.5
+718.3
+719.1
+719.9
+720.7
+721.5
+722.3
+723.1
+723.9
+724.7
+725.5
+726.3
+727.1
+727.9
+728.7
+729.5
+730.3
+731.1
+731.9
+732.7
+733.5
+734.3
+735.1
+735.9
+736.7
+737.5
+738.3
+739.1
+739.9
+740.7
+741.5
+742.3
+743.1
+743.9
+744.7
+745.5
+746.3
+747.1
+747.9
+748.7
+749.5
+750.3
+751.1
+751.9
+752.7
+753.5
+754.3
+755.1
+755.9
+756.7
+757.5
+758.3
+759.1
+759.9
+760.7
+761.5
+762.3
+763.1
+763.8
+764.6
+765.4
+766.2
+767
+767.8
+768.6
+769.4
+770.2
+771
+771.8
+772.6
+773.4
+774.2
+775
+775.8
+776.6
+777.4
+778.2
+779
+779.8
+780.6
+781.4
+782.2
+783
+783.8
+784.6
+785.4
+786.2
+787
+787.8
+788.6
+789.4
+790.2
+791
+791.8
+792.6
+793.4
+794.2
+795
+795.8
+796.6
+797.4
+798.2
+799
+799.8
+800.6
+801.4
+802.2
+803
+803.8
+804.6
+805.4
+806.2
+807
+807.8
+808.6
+809.4
+810.2
+811
+811.8
+812.6
+813.4
+814.2
+815
+815.8
+816.6
+817.4
+818.2
+819
+819.8
+820.6
+821.3
+822.1
+822.9
+823.7
+824.5
+825.3
+826.1
+826.9
+827.7
+828.5
+829.3
+830.1
+830.9
+831.7
+832.6
+833.5
+834.4
+835.2
+836.1
+837
+837.9
+838.8
+839.7
+840.6
+841.4
+842.3
+843.2
+844.1
+845
+845.9
+846.8
+847.6
+848.5
+849.4
+850.3
+851.2
+852.1
+853
+853.8
+854.7
+855.6
+856.5
+857.4
+858.3
+859.1
+860
+860.9
+861.8
+862.7
+863.6
+864.5
+865.3
+866.2
+867.1
+868
+868.9
+869.8
+870.7
+871.5
+872.4
+873.3
+874.2
+875.1
+876
+876.9
+877.7
+878.6
+879.5
+880.4
+881.3
+882.2
+883
+883.9
+884.8
+885.7
+886.6
+887.5
+888.4
+889.2
+890.1
+891
+891.9
+892.8
+893.7
+894.6
+895.4
+896.3
+897.2
+898.1
+899
+899.9
+</ColumnCells>
+    </DataColumn>
+    <DataColumn>
+      <ID>318 </ID>
+      <BroadcastTo>4 17 301 302 328 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>Absorbance</DataObjectName>
+      <DataObjectShortName>Abs</DataObjectShortName>
+      <DataObjectColor>0xffff 0x0 0x3333| 0xffff 0x0</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>3</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>0</DataObjectThickLines>
+      <ColumnUnits></ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>1</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1778898943</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>1</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>1</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>0</ColumnSensorColumn>
+      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>
+      <ColumnMatchTag></ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>4</ColumnLastDataCollectedMode>
+      <ColumnGroupID>313</ColumnGroupID>
+      <ColumnCells>
+-0.00386340982594
+-0.00555590824573
+-0.00661628218188
+-0.005869710596
+-0.00604311400039
+-0.00506177802113
+-0.00693625958644
+-0.00562702244326
+-0.00463191050727
+-0.00231963911848
+-0.00257793011009
+-0.00438300647945
+-0.00544619519932
+-0.00535463996412
+-0.00463660689018
+-0.00554273998966
+-0.00589584339339
+-0.00630726141896
+-0.0051327878117
+-0.00513024982142
+-0.00468603841411
+-0.0057343050512
+-0.0054964610827
+-0.00556838209913
+-0.00547108218015
+-0.00535445140847
+-0.00534514503105
+-0.00450016700641
+-0.00439557070451
+-0.00412743877905
+-0.00488924736275
+-0.00505667867797
+-0.00462424667991
+-0.00480323665927
+-0.00534297639989
+-0.00679377436225
+-0.00593017579878
+-0.00586816836202
+-0.00479893055292
+-0.00511636189028
+-0.00481607808836
+-0.00449513062646
+-0.0040598687335
+-0.00368755377387
+-0.00358026375616
+-0.00383127104367
+-0.00374081376244
+-0.00391962297405
+-0.00404616384883
+-0.00360536052997
+-0.00357449707764
+-0.00326678739667
+-0.00344937156677
+-0.00336804413462
+-0.00355934119331
+-0.00368793681678
+-0.002989319353
+-0.00257217976343
+-0.0019661474882
+-0.00207609263061
+-0.00156882614666
+-0.00138997882969
+-0.00122446484124
+-0.00143603687746
+-0.00158103027497
+-0.00167318483629
+-0.0010241099108
+-0.000670141069117
+-0.000195851300888
+-0.000282993566953
+0.000224851996298
+4.58082726573e-05
+0.000410041378679
+0.000727552813758
+0.000926102437955
+0.000831886381473
+0.000785622561599
+0.00117062268178
+0.0011528732728
+0.000870086821019
+0.000821037812238
+0.00132406543566
+0.00156369668689
+0.0017238330294
+0.00190740186179
+0.00180183816086
+0.0020975439213
+0.00217170655635
+0.0018966007948
+0.00118456308272
+0.0017371493049
+0.00208223351474
+0.00249570839359
+0.00204853109398
+0.00219162796764
+0.00234799185297
+0.00174293394364
+0.00166349603206
+0.00076168580796
+0.00112961287787
+0.00101361691579
+0.00187982158349
+0.00168333938214
+0.00152551334547
+0.000690417105042
+0.00107228274201
+0.000434861007415
+0.000633357506864
+0.000325858008241
+0.00169747458418
+0.00328639816858
+0.00359042758638
+0.00355426194314
+0.00248539239027
+0.00252025734359
+0.00320193546783
+0.00360281518302
+0.00427585416455
+0.00370995250038
+0.00463902350207
+0.00516599744926
+0.00625644084678
+0.00652330739553
+0.00695541220578
+0.00735335743745
+0.00806374710923
+0.00788692767246
+0.00823984475607
+0.00852517721036
+0.00950006095361
+0.0097609617384
+0.010112396152
+0.0101020869954
+0.0101167215703
+0.0102771195937
+0.0106274972088
+0.0109894694043
+0.0111739588165
+0.0108912768331
+0.0112709676424
+0.0111470208197
+0.0115314299063
+0.0112211340372
+0.0104069877133
+0.0101425637277
+0.00966692419436
+0.0102969138177
+0.00993203789635
+0.0103641899881
+0.0096792522383
+0.00942408455347
+0.00828803541036
+0.00820541871655
+0.0077720617091
+0.00778371656414
+0.00775228498171
+0.00790488670069
+0.00766370321476
+0.00681134548299
+0.00613149596959
+0.00658923991455
+0.00639788099178
+0.0065210976143
+0.00582690729142
+0.00591427807379
+0.00507642556624
+0.00469933607555
+0.00407238026521
+0.00446146801834
+0.00414304914645
+0.00460025279285
+0.00386044684156
+0.00398089027202
+0.00372706905601
+0.00390424454394
+0.00356019112906
+0.0030370537629
+0.00271153347029
+0.00196704083836
+0.0019345110653
+0.00252231459732
+0.0025280487669
+0.00295221780383
+0.00243973209452
+0.00232133886985
+0.00199949242617
+0.000806287470093
+0.000595691991084
+-0.00026407395451
+0.00132525598029
+0.0021190652591
+0.0030560103879
+0.00241178336573
+0.00173169185824
+0.000981389967943
+0.000108301839011
+-5.56330143962e-05
+8.07303075046e-05
+0.000950154175945
+0.000677193102123
+0.000261378046293
+0.000330672689172
+0.000777826570117
+0.00116618055743
+0.0013705302403
+0.00144946582726
+0.00116564320412
+0.000646271307286
+-9.31061386629e-05
+-0.000452956220955
+-0.000565087683166
+0.000461674233574
+0.000265233560701
+7.59233064282e-05
+-0.00101497486294
+-0.000853853434839
+-0.00123949279055
+-0.00116370163467
+-0.000962895550396
+-0.000128341607315
+0.000230479064499
+0.000340601522423
+3.2206053789e-05
+-0.000144043804644
+0.000174456279313
+0.00031555996753
+0.000350381004489
+9.53501250864e-05
+-0.000174803835209
+-8.93869719101e-05
+-0.000257620154625
+-0.000383799684162
+-0.000454919411544
+-0.000955053287359
+-0.000646431290335
+-0.000299208908205
+0.000237918275907
+5.39934549826e-05
+0.000206678626687
+0.000723642529151
+0.000541289763723
+-4.14272538229e-06
+-0.000571602314021
+-0.000187783614185
+-0.000415954072751
+-0.000387048388638
+-0.000167654938846
+0.000701198736283
+0.00059251115917
+4.35435544022e-06
+-9.85542387051e-05
+-0.000180099770508
+-0.000434454574594
+-0.000903719470955
+-0.000858345858942
+-0.000568827116031
+-0.000700073439024
+-0.000894676612584
+-0.0010506302626
+-0.00082912136542
+-0.00107072389854
+-0.00115335332838
+-0.00135241887463
+-0.000555398250697
+-0.000500144729552
+-0.000345807015026
+-0.0013118947123
+-0.00163618800543
+-0.0017176438198
+-0.00161590324872
+-0.00152765846979
+-0.00179086964436
+-0.00118782324413
+-0.00100007793256
+-0.000436197300399
+-0.00100023497192
+-0.000844998131458
+-0.000967024652772
+-0.000615570596799
+-0.000644123871902
+-0.000965346833721
+-0.000823961346736
+-0.000981769149496
+-0.000859285019618
+-0.00124055744265
+-0.000969155891511
+-0.00127014523529
+-0.000864160830188
+-0.000784844151654
+-0.000844723957519
+-0.00140712846942
+-0.00119242005146
+-0.000723355153638
+0.000240103561388
+-4.06148730732e-05
+0.000152554379556
+-0.000748982116878
+-0.00111502368823
+-0.00113121424722
+-0.000760341205082
+-0.000727078188268
+-0.00125756436192
+-0.00139259273723
+-0.00135556007982
+-0.000771795404711
+-0.000882445933196
+-0.000702133391258
+-0.00111875052418
+-0.00109530178823
+-0.00116019908577
+-0.00120519589583
+-0.00104594309222
+-0.000885739935467
+-0.000486932974445
+-0.000936837084066
+-0.000852057680714
+-0.00101612353277
+-0.00025565577698
+0.000152125476935
+-7.7261814885e-05
+-0.00034456058303
+-0.000432374390814
+-0.000380908886777
+-0.000234475689525
+-0.000634495884736
+-0.000910572400036
+-0.00112487660448
+-0.00101072325697
+-0.000914305809075
+-0.000913079822619
+-0.00197163803332
+-0.00124415830115
+-0.00139212786115
+-0.00111612083397
+-0.000993774023152
+-0.000762659273654
+0.000204453535456
+-0.000491540608552
+-0.000780507523505
+-0.00105175472838
+-0.000542682701516
+-0.000236857916419
+-0.000679138488568
+-0.000703140342596
+-0.000955458421414
+-0.000557270516604
+-0.00071982496282
+-0.00035291260297
+-0.000653867918561
+-0.000439335775937
+-0.000201659335172
+2.16445874028e-05
+-0.000375282120818
+-0.00123882747773
+-0.000856472164322
+-0.000655798450576
+0.000260376703235
+-6.98352093962e-05
+0.000217314028151
+1.58489769184e-05
+0.000144026529351
+7.54531420266e-05
+-0.000131551884692
+0.000153737312476
+-0.000449028691865
+-0.000838822784114
+-0.00151127698188
+-0.00140361270894
+-0.000904427670867
+-0.000598057590623
+-0.000855696458907
+-0.000976184085848
+-0.00132615722199
+-0.000984892260176
+-0.000438487862628
+0.000179878031804
+0.00051212415037
+-3.19559819837e-05
+-0.000522831747648
+-0.00103913345001
+-0.000823985578519
+-0.000894550506908
+-0.000695779024965
+-0.000583716294628
+-0.00026757420245
+-0.000437351218997
+-0.000702019494379
+-0.000668542761761
+-0.000465632448097
+-0.000514897886842
+-0.000952668352047
+-0.00114842993189
+-0.00128765395372
+-0.00137563933667
+-0.00124522593272
+-0.00107501548569
+-0.000673332287478
+-0.000597754657061
+-0.00107529549599
+-0.00116670181371
+-0.000971290721727
+-0.000675845629225
+-0.00049079699321
+-0.000566386443378
+-0.000566614008239
+-0.000706631325211
+-0.000710552198047
+-0.00054693301282
+-0.000376626643041
+-0.000519699704163
+-0.000673257930954
+-0.000860847374646
+-0.000980841026966
+-0.000932897621929
+-0.00064891618654
+-0.000134057015872
+-0.000220256697836
+-0.000896944291786
+-0.00121537473114
+-0.000640573111938
+-6.56033406203e-05
+0.000345170998193
+0.000212685848709
+0.000506959962503
+8.39591064072e-05
+0.000139076343868
+-0.000103237914734
+0.000266214985834
+0.000104945967836
+5.42585028174e-05
+0.00040617103691
+0.000464580520387
+0.000834120915298
+0.000548301700507
+0.000677413546931
+-5.35633021328e-05
+-0.000502325293094
+-0.000887742375109
+-0.000509671907104
+-0.000540887222981
+-0.000317941724546
+-0.000532587427156
+-0.000347105513833
+0.000578077468464
+0.000555871985601
+0.000812128934369
+0.000318410643832
+0.000601987804821
+2.43684300461e-05
+-0.000715251101309
+-0.000723660611398
+-0.000264990318913
+-0.000276978014079
+-0.00064957982087
+-0.000664012442043
+-9.19746933583e-05
+0.000100195701727
+-0.000397281319702
+-0.000338810850042
+-0.000433351600706
+-7.66291646848e-05
+-0.000810962075361
+-0.000473033074328
+-0.000102935692527
+0.000230927946629
+-4.26703622125e-06
+-0.000368601537233
+-0.000430411889326
+-0.000708450216967
+-0.000530343953221
+2.04528284498e-05
+0.000543388695261
+0.000174017731852
+-0.000203711642125
+2.11102848096e-05
+0.000436761243544
+0.000599882676363
+0.000420319157099
+0.000779839877258
+0.000819678145645
+0.00102149358313
+0.000303365255677
+0.000358536239791
+0.000140686417006
+0.000755593830997
+0.000921830774469
+0.000839584517008
+0.00035944660542
+0.000616783001122
+0.000616387318868
+0.00127048065317
+0.000688004811483
+0.000954023782201
+0.000737629774612
+0.00124989356619
+0.00123745240575
+0.00121327374717
+0.00124728176963
+0.00157797497559
+0.0013350042574
+0.00133223985697
+0.000922765534344
+0.000832073009722
+0.000417838250262
+0.000640659718379
+0.000879555796422
+0.000769512919853
+0.000940833401553
+0.000760924799299
+0.00138342867081
+0.000934042978687
+0.00100578972729
+0.000553466131091
+0.000156211289146
+0.000246377150192
+0.000372843272778
+0.00130243900462
+0.0019424007946
+0.0019521277957
+0.00165307822748
+0.00116245180116
+0.000654905770764
+0.00105385878716
+0.00139998206055
+0.00188640269926
+0.00215907957211
+0.00154040908001
+0.00148655290522
+0.00100598621116
+0.00123090133371
+0.00157059039355
+0.00144419448987
+0.00179828690919
+0.000925626343645
+0.000808502530333
+0.000556936394908
+0.00156390963008
+0.00207551930791
+0.00195072453198
+0.00121274447696
+0.000571884159921
+0.000539263433132
+0.000471163899139
+0.00119709298025
+0.00136172693626
+0.00159542729277
+0.000947709571756
+0.000714367341157
+0.000740517162444
+0.000661819871419
+0.000592576558591
+0.00094934100296
+0.00121157117233
+0.00191758492975
+0.00184388475896
+0.00233930488335
+0.00203552104741
+0.00225147021235
+0.00121450144988
+0.000979767293642
+0.00138250082173
+0.00151205958137
+0.00130416297796
+0.00032564600824
+0.000588206475765
+0.00106763655056
+0.000912083975877
+0.00104713714122
+0.00076594475341
+0.00123593240012
+0.00100816062112
+0.000584860217803
+0.000778523321773
+0.00115245470758
+0.00172973787314
+0.00189532144829
+0.00131834484026
+0.0014516147215
+0.00075343670457
+0.00143380065863
+0.00157660348888
+0.001597236276
+0.00166080460103
+0.00153248396585
+0.00212918280095
+0.00214889551804
+0.00183645383647
+0.00212439586161
+0.00157178492987
+0.00169257914777
+0.00118269739186
+0.00168042933253
+0.00180512816185
+0.00187770747623
+0.00152857620987
+0.0014764246355
+0.00123266441582
+0.00169299787701
+0.00161423266828
+0.00237867794013
+0.00187956628853
+0.00168564256371
+0.0011503529391
+0.0016336340559
+0.0021257409278
+0.00229541583673
+0.00218920180743
+0.00201473898333
+0.00167317428495
+0.0018311299172
+0.00185130481337
+0.00245498317003
+0.00150848158661
+0.00181352645841
+0.00253697006026
+0.00336121416528
+0.00379444079263
+0.00268342446348
+0.00255853396647
+0.00216035711943
+0.00223988276585
+0.00261285143225
+0.00269866397522
+0.00302635313422
+0.00319299221648
+0.00223470214715
+0.00231996947664
+0.00212284425624
+0.00311055568298
+0.00202443740413
+0.00241156283336
+0.00228232819816
+0.00340053466795
+0.00267143030404
+0.00322922146874
+0.00249680948252
+0.00195269298741
+0.00202484341202
+0.00241391204195
+0.00320719890577
+</ColumnCells>
+    </DataColumn>
+  </DataSet>
+  <DataSet>
+    <ID>323 </ID>
+    <BroadcastTo>2 4 302 </BroadcastTo>
+    <Visible>1</Visible>
+    <DataSetName>Latest</DataSetName>
+    <DataSetComments></DataSetComments>
+    <DataSetPosition>38</DataSetPosition>
+    <DataSetSourceName></DataSetSourceName>
+    <DataSetShowInDataBrowser>1</DataSetShowInDataBrowser>
+    <DataSetHistogram>0</DataSetHistogram>
+    <DataSetFFT>0</DataSetFFT>
+    <DataSetLatest>1</DataSetLatest>
+    <DataSetAutoCreated>0</DataSetAutoCreated>
+    <DataSetStoredRun>0</DataSetStoredRun>
+    <DataSetPrediction>0</DataSetPrediction>
+    <DataSetVideoAnalysis>0</DataSetVideoAnalysis>
+    <DataSetGraphMatch>0</DataSetGraphMatch>
+    <Metadata>
+      <DataMark>
+      </DataMark>
+      <DataTag>
+      </DataTag>
+    </Metadata>
+    <DataColumn>
+      <ID>324 </ID>
+      <BroadcastTo>3 17 302 328 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>Wavelength</DataObjectName>
+      <DataObjectShortName>λ</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>1</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>1</DataObjectThickLines>
+      <ColumnUnits>nm</ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>0</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1778899369</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>2</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>0</ColumnSensorColumn>
+      <ColumnSensorInputColumn>1</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>
+      <ColumnMatchTag>Wavelength</ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>4</ColumnLastDataCollectedMode>
+      <ColumnGroupID>325</ColumnGroupID>
+      <ColumnCells>
+380.6
+381.4
+382.3
+383.2
+384
+384.9
+385.7
+386.6
+387.4
+388.3
+389.2
+390
+390.9
+391.7
+392.6
+393.4
+394.3
+395.2
+396
+396.9
+397.7
+398.6
+399.4
+400.3
+401.2
+402
+402.9
+403.7
+404.6
+405.4
+406.3
+407.2
+408
+408.9
+409.7
+410.6
+411.4
+412.3
+413.1
+414
+414.9
+415.7
+416.6
+417.4
+418.3
+419.1
+420
+420.9
+421.7
+422.6
+423.4
+424.3
+425.1
+426
+426.9
+427.7
+428.6
+429.4
+430.3
+431.1
+432
+432.9
+433.7
+434.6
+435.4
+436.3
+437.1
+438
+438.9
+439.7
+440.6
+441.4
+442.3
+443.1
+444
+444.9
+445.7
+446.6
+447.4
+448.3
+449.1
+450
+450.9
+451.7
+452.6
+453.4
+454.3
+455.1
+456
+456.9
+457.7
+458.6
+459.4
+460.3
+461.1
+462
+462.9
+463.7
+464.6
+465.4
+466.3
+467.1
+468
+468.9
+469.7
+470.6
+471.4
+472.3
+473.1
+474
+474.9
+475.7
+476.6
+477.4
+478.3
+479.1
+480
+480.9
+481.7
+482.6
+483.4
+484.3
+485.1
+486
+486.9
+487.7
+488.6
+489.4
+490.3
+491.1
+492
+492.9
+493.7
+494.6
+495.4
+496.3
+497.1
+498
+498.8
+499.7
+500.6
+501.4
+502.3
+503.1
+504
+504.8
+505.7
+506.6
+507.4
+508.3
+509.1
+510
+510.8
+511.7
+512.6
+513.4
+514.2
+515
+515.8
+516.6
+517.4
+518.2
+519
+519.8
+520.6
+521.4
+522.3
+523.1
+523.9
+524.7
+525.5
+526.3
+527.1
+527.9
+528.7
+529.5
+530.3
+531.1
+532
+532.8
+533.6
+534.4
+535.2
+536
+536.8
+537.6
+538.4
+539.2
+540
+540.8
+541.7
+542.5
+543.3
+544.1
+544.9
+545.7
+546.5
+547.3
+548.1
+548.9
+549.7
+550.5
+551.4
+552.2
+553
+553.8
+554.6
+555.4
+556.2
+557
+557.8
+558.6
+559.4
+560.2
+561.1
+561.9
+562.7
+563.5
+564.3
+565.1
+565.9
+566.7
+567.5
+568.3
+569.1
+570
+570.8
+571.6
+572.4
+573.2
+574
+574.8
+575.6
+576.4
+577.2
+578
+578.8
+579.7
+580.5
+581.3
+582.1
+582.9
+583.7
+584.5
+585.3
+586.1
+586.9
+587.7
+588.5
+589.2
+590
+590.7
+591.5
+592.2
+593
+593.7
+594.4
+595.2
+595.9
+596.7
+597.4
+598.2
+598.9
+599.7
+600.4
+601.1
+601.9
+602.6
+603.4
+604.1
+604.9
+605.6
+606.4
+607.1
+607.8
+608.6
+609.3
+610.1
+610.8
+611.6
+612.3
+613
+613.8
+614.5
+615.3
+616
+616.8
+617.5
+618.3
+619
+619.7
+620.5
+621.2
+622
+622.7
+623.5
+624.2
+625
+625.7
+626.4
+627.2
+627.9
+628.7
+629.4
+630.2
+630.9
+631.6
+632.4
+633.1
+633.9
+634.6
+635.4
+636.1
+636.9
+637.6
+638.3
+639.1
+639.8
+640.6
+641.3
+642.1
+642.8
+643.6
+644.3
+645
+645.8
+646.5
+647.3
+648
+648.8
+649.5
+650.2
+651
+651.7
+652.5
+653.2
+654
+654.7
+655.5
+656.2
+656.9
+657.7
+658.4
+659.2
+659.9
+660.7
+661.4
+662.2
+662.9
+663.6
+664.4
+665.1
+665.9
+666.6
+667.4
+668.1
+668.9
+669.7
+670.4
+671.2
+672
+672.7
+673.5
+674.2
+675
+675.8
+676.5
+677.3
+678.1
+678.8
+679.6
+680.4
+681.1
+681.9
+682.7
+683.4
+684.2
+685
+685.7
+686.5
+687.2
+688
+688.8
+689.5
+690.3
+691.1
+691.8
+692.6
+693.4
+694.1
+694.9
+695.7
+696.4
+697.2
+698
+698.7
+699.5
+700.2
+701
+701.8
+702.5
+703.3
+704.1
+704.8
+705.6
+706.4
+707.1
+707.9
+708.7
+709.5
+710.3
+711.1
+711.9
+712.7
+713.5
+714.3
+715.1
+715.9
+716.7
+717.5
+718.3
+719.1
+719.9
+720.7
+721.5
+722.3
+723.1
+723.9
+724.7
+725.5
+726.3
+727.1
+727.9
+728.7
+729.5
+730.3
+731.1
+731.9
+732.7
+733.5
+734.3
+735.1
+735.9
+736.7
+737.5
+738.3
+739.1
+739.9
+740.7
+741.5
+742.3
+743.1
+743.9
+744.7
+745.5
+746.3
+747.1
+747.9
+748.7
+749.5
+750.3
+751.1
+751.9
+752.7
+753.5
+754.3
+755.1
+755.9
+756.7
+757.5
+758.3
+759.1
+759.9
+760.7
+761.5
+762.3
+763.1
+763.8
+764.6
+765.4
+766.2
+767
+767.8
+768.6
+769.4
+770.2
+771
+771.8
+772.6
+773.4
+774.2
+775
+775.8
+776.6
+777.4
+778.2
+779
+779.8
+780.6
+781.4
+782.2
+783
+783.8
+784.6
+785.4
+786.2
+787
+787.8
+788.6
+789.4
+790.2
+791
+791.8
+792.6
+793.4
+794.2
+795
+795.8
+796.6
+797.4
+798.2
+799
+799.8
+800.6
+801.4
+802.2
+803
+803.8
+804.6
+805.4
+806.2
+807
+807.8
+808.6
+809.4
+810.2
+811
+811.8
+812.6
+813.4
+814.2
+815
+815.8
+816.6
+817.4
+818.2
+819
+819.8
+820.6
+821.3
+822.1
+822.9
+823.7
+824.5
+825.3
+826.1
+826.9
+827.7
+828.5
+829.3
+830.1
+830.9
+831.7
+832.6
+833.5
+834.4
+835.2
+836.1
+837
+837.9
+838.8
+839.7
+840.6
+841.4
+842.3
+843.2
+844.1
+845
+845.9
+846.8
+847.6
+848.5
+849.4
+850.3
+851.2
+852.1
+853
+853.8
+854.7
+855.6
+856.5
+857.4
+858.3
+859.1
+860
+860.9
+861.8
+862.7
+863.6
+864.5
+865.3
+866.2
+867.1
+868
+868.9
+869.8
+870.7
+871.5
+872.4
+873.3
+874.2
+875.1
+876
+876.9
+877.7
+878.6
+879.5
+880.4
+881.3
+882.2
+883
+883.9
+884.8
+885.7
+886.6
+887.5
+888.4
+889.2
+890.1
+891
+891.9
+892.8
+893.7
+894.6
+895.4
+896.3
+897.2
+898.1
+899
+899.9
+</ColumnCells>
+    </DataColumn>
+    <DataColumn>
+      <ID>326 </ID>
+      <BroadcastTo>4 4 17 302 328 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>Fluorescence 405 nm</DataObjectName>
+      <DataObjectShortName>F 405</DataObjectShortName>
+      <DataObjectColor>0xffff 0x7f7f 0x0| 0xffff 0x0</DataObjectColor>
+      <DataObjectDataSource>303</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>3</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>1</DataObjectThickLines>
+      <ColumnUnits>rel</ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>0</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1778898975</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>5</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>1</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>0</ColumnSensorColumn>
+      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>
+      <ColumnMatchTag>Fluorescence 405 nm</ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>4</ColumnLastDataCollectedMode>
+      <ColumnGroupID>327</ColumnGroupID>
+      <ColumnCells>
+0.0165673558658
+0.0168199774506
+0.0173794749201
+0.0172836821715
+0.0170658172478
+0.0169920653086
+0.017207387062
+0.0174133838577
+0.017263336809
+0.0172294278715
+0.0178660681739
+0.0179423632834
+0.0176617668252
+0.0168954248366
+0.0171217669947
+0.0175125675
+0.0176727872299
+0.0177414528284
+0.0180101811585
+0.0177923162348
+0.0176685486127
+0.0173794749201
+0.0176456600799
+0.0181042784602
+0.0179516882412
+0.0180822376508
+0.0172930071294
+0.0175786899282
+0.0175430855438
+0.01799576986
+0.0180254401804
+0.0182161779541
+0.0181610759306
+0.0183865703653
+0.0181644668243
+0.0178491137051
+0.017477810839
+0.0176524418674
+0.0178626772802
+0.0177685799785
+0.0175939489501
+0.017582080822
+0.0180525673304
+0.0182602595729
+0.0184086111747
+0.0178787840255
+0.0174769631156
+0.0173158956622
+0.0176973712096
+0.0181356442274
+0.0178609818333
+0.0177202597425
+0.0172599459152
+0.0179423632834
+0.0178923476005
+0.0182017666556
+0.0180135720523
+0.0182475437213
+0.0181839644634
+0.0179788153913
+0.0177321278706
+0.0177066961674
+0.01796864271
+0.0179872926257
+0.0179796631147
+0.0180288310742
+0.0180228970101
+0.0181025830133
+0.0184035248341
+0.0182780617651
+0.0182551732323
+0.0182806049354
+0.0187748277002
+0.019102896671
+0.0192809185931
+0.0193063502963
+0.0195708400092
+0.0194250315777
+0.0195233674966
+0.0190859422022
+0.0191961462492
+0.0188892703644
+0.0192241211227
+0.0192622686775
+0.0199031475971
+0.0197030848656
+0.0197115621
+0.0200167425379
+0.020285470868
+0.0201795054381
+0.0194216406839
+0.0197344506328
+0.020001483516
+0.0202100234819
+0.0202066325882
+0.0203041207836
+0.0208203843578
+0.0210975899223
+0.0214027703602
+0.0214663496181
+0.0212425506303
+0.0213358002085
+0.0215502742385
+0.0216714986903
+0.0218334138671
+0.022130964794
+0.022712503073
+0.0229066317405
+0.022967667828
+0.0232482642863
+0.0229710587218
+0.0229354543374
+0.0226582487729
+0.0228235548435
+0.021951247425
+0.0221419851987
+0.0227693005434
+0.0239883268482
+0.0240222357858
+0.0235085153819
+0.0234627383163
+0.0233338843536
+0.0233160821614
+0.0231880759221
+0.023383052313
+0.0233839000365
+0.023750116562
+0.0237891118402
+0.0234059408459
+0.0233084526504
+0.0231617964955
+0.023618719429
+0.0230185312344
+0.023050744725
+0.0231575578783
+0.0235017335944
+0.0233203207785
+0.023272848266
+0.0231117808126
+0.0235195357866
+0.0237102735604
+0.024130744386
+0.0244715292083
+0.0247139781118
+0.0249055636089
+0.0246588760883
+0.024329959394
+0.0239340725482
+0.0239527224638
+0.0246724396633
+0.024911497673
+0.0250174631028
+0.0242002577079
+0.0246402261726
+0.0247953595619
+0.025230241686
+0.024828420776
+0.0249318430355
+0.0247038054305
+0.0247402575384
+0.0247199121759
+0.0246953281961
+0.0246114035757
+0.0241451556844
+0.0240968354484
+0.0243036799674
+0.023750116562
+0.0237941981808
+0.0233584683333
+0.0235907445555
+0.0231473851971
+0.0232075735612
+0.0233991590583
+0.0235415765961
+0.0228803523139
+0.0225471970024
+0.02260823309
+0.0229566474233
+0.0229184998686
+0.0226107762604
+0.0222513415223
+0.0219317497859
+0.0218461297186
+0.0219843086391
+0.0219944813204
+0.0220190653001
+0.0221962394988
+0.0223174639506
+0.0221165534956
+0.0220360197689
+0.0223352661428
+0.0220597560252
+0.0218596932937
+0.0212510278647
+0.0216647169028
+0.0212781550147
+0.0212298347787
+0.0212925663132
+0.0215892695167
+0.0216367420293
+0.0212391597365
+0.0212510278647
+0.0214239634462
+0.0219283588922
+0.0214985631088
+0.0216714986903
+0.0213069776116
+0.021377338657
+0.0211603214567
+0.0212467892475
+0.0213103685054
+0.0215324720463
+0.0211891440536
+0.0211484533286
+0.0204770563651
+0.0207059416936
+0.0208017344422
+0.0210992853691
+0.0207398506311
+0.0205431787934
+0.0203210752524
+0.0200955808177
+0.0202676686758
+0.0201769622678
+0.0202897094852
+0.0198972135331
+0.0196674804812
+0.0200904944771
+0.0197751413579
+0.0198760204471
+0.0190511855412
+0.018957935963
+0.018957935963
+0.0190867899257
+0.0193826454058
+0.0193122843604
+0.0191088307351
+0.0185137288811
+0.018217873401
+0.018362834109
+0.0189477632817
+0.0189299610895
+0.0184696472623
+0.0180881717149
+0.0183272297246
+0.0189884540068
+0.0189299610895
+0.0187519391674
+0.0184535405169
+0.0186298669922
+0.0186196943109
+0.0184611700279
+0.0181814212931
+0.0179610131991
+0.0179491450709
+0.0180237447335
+0.0184314997075
+0.0187731322533
+0.0189867585599
+0.0186790349516
+0.0180271356273
+0.0181780303994
+0.018335706959
+0.0187680459127
+0.0182492391682
+0.0178881089833
+0.0180924103321
+0.0180813899274
+0.0184501496232
+0.018148360079
+0.0186146079703
+0.0183950475997
+0.0184586268576
+0.0183043411917
+0.0182483914448
+0.0183458796402
+0.0180406992023
+0.0179635563694
+0.0177092393378
+0.0175736035876
+0.0175363037563
+0.0174447496249
+0.0174133838577
+0.017609207972
+0.017671091783
+0.0181585327603
+0.0181653145478
+0.01815598959
+0.0180127243288
+0.0175244356281
+0.0171717826776
+0.0170920966744
+0.0172429914465
+0.0174650949874
+0.0172972457465
+0.0174396632843
+0.0177626459144
+0.017788925341
+0.0179313428787
+0.0174828971796
+0.0173472614294
+0.0172345142121
+0.0173404796419
+0.0175447809906
+0.0173718454092
+0.0173879521545
+0.0170446241618
+0.0169649381586
+0.0166029602502
+0.0163791612624
+0.015928172393
+0.0160095538432
+0.0162358960013
+0.016067199037
+0.0159018929664
+0.0156026465926
+0.015997685715
+0.0160137924603
+0.0159502132024
+0.0161384078058
+0.0163537295593
+0.0169742631164
+0.0169183133694
+0.0167597890864
+0.0161384078058
+0.0160493968448
+0.0162503072997
+0.0165402287158
+0.0168242160678
+0.0166241533362
+0.0168055661521
+0.0167021438926
+0.016979349457
+0.0169632427117
+0.0169140747523
+0.0166555191034
+0.0166071988674
+0.0160222696947
+0.0161341691886
+0.0158951111789
+0.0160621126964
+0.0160833057823
+0.0159832744166
+0.0165961784627
+0.0162265710435
+0.0161655349559
+0.0157247187677
+0.0161884234887
+0.0163672931343
+0.0167021438926
+0.016550401397
+0.0165385332689
+0.0159722540119
+0.0154771835236
+0.0153034002187
+0.015300009325
+0.0154941379924
+0.0155670422082
+0.0154280155642
+0.0156569008927
+0.0156128192738
+0.0159239337758
+0.0161028034214
+0.016032442376
+0.0157993184304
+0.0159451268618
+0.0161706212965
+0.0165029288845
+0.0164639336063
+0.0161841848715
+0.0160120970135
+0.0158349228148
+0.0161731644668
+0.0162494595763
+0.0156509668286
+0.0154254723939
+0.0153703703704
+0.0158925680086
+0.0159603858837
+0.0161621440621
+0.0158578113476
+0.0159383450743
+0.0159213906055
+0.0164232428812
+0.0164944516501
+0.01662754423
+0.0162698049388
+0.0158815476039
+0.015659444063
+0.0157026779583
+0.0159900562041
+0.0159578427134
+0.0159688631181
+0.0155984079754
+0.0157654094928
+0.0157120029162
+0.0157764298975
+0.0155712808253
+0.015361893136
+0.015914608818
+0.0157399777896
+0.0161095852089
+0.0160553309088
+0.0162562413638
+0.0162926934717
+0.0157874503022
+0.0155288946534
+0.0152737298984
+0.0153050956656
+0.0152567754296
+0.015091469359
+0.0153262887516
+0.0158137297288
+0.0159519086493
+0.0159502132024
+0.0156255351254
+0.0155331332706
+0.0155365241644
+0.0155755194425
+0.0153118774531
+0.0156619872333
+0.0155297423768
+0.0162308096607
+0.0160231174182
+0.0160256605885
+0.0155110924612
+0.0155407627816
+0.0157399777896
+0.0159578427134
+0.015437340522
+0.015410213372
+0.0155407627816
+0.0159298678399
+0.0161901189356
+0.0157170892568
+0.0154559904377
+0.0152864457499
+0.0154322541814
+0.0158578113476
+0.015423776947
+0.0156492713817
+0.0152932275374
+0.0154763358002
+0.0153585022422
+0.0152499936421
+0.0154136042657
+0.0152474504718
+0.0153983452438
+0.0155305901003
+0.0157264142146
+0.0155390673347
+0.0155500877394
+0.01555517408
+0.0158128820054
+0.0156925052771
+0.0159129133711
+0.0158484863898
+0.0157882980257
+0.0156094283801
+0.0157713435569
+0.0158569636242
+0.0154763358002
+0.0151491145529
+0.0147549231539
+0.0151889575545
+0.0152847503031
+0.0154136042657
+0.0149727880776
+0.0151448759357
+0.0154127565423
+0.0156560531692
+0.0153373091563
+0.0151728508092
+0.0152728821749
+0.0154610767783
+0.0152703390046
+0.0154127565423
+0.0157026779583
+0.0161248442308
+0.0158162728991
+0.0154534472674
+0.0150787535075
+0.0152745776218
+0.0151567440638
+0.0150236514839
+0.0148074820071
+0.0150728194434
+0.015396649797
+0.015410213372
+0.0153228978578
+0.0155000720565
+0.0158722226461
+0.0158934157321
+0.0156619872333
+0.0153381568797
+0.0153686749235
+0.0155670422082
+0.0154822698643
+0.0155653467613
+0.015541610505
+0.0157849071319
+0.0153839339454
+0.0152542322593
+0.0151923484482
+0.0151618304044
+0.0152864457499
+0.0152364300671
+0.0156492713817
+0.0154356450752
+0.0155831489535
+0.0154034315845
+0.0156051897629
+0.0157221755974
+0.0158349228148
+0.0157289573849
+0.0151211396794
+0.0152372777905
+0.0152423641311
+0.0157230233209
+0.015624687402
+0.015651814552
+0.0156585963395
+0.015562803591
+0.0155975602519
+0.0157611708756
+0.0156679212974
+0.0159468223087
+0.0154534472674
+0.0156585963395
+0.0151999779592
+0.0155305901003
+0.0155526309097
+0.0155661944847
+0.0153669794766
+0.0153152683469
+0.015182175767
+0.015133855531
+0.0150355196121
+0.0151635258513
+0.015361893136
+0.015271186728
+0.0152940752609
+0.0152889889203
+0.0153008570484
+0.0152661003874
+0.0151626781279
+0.0153585022422
+0.0155933216347
+0.0156085806566
+0.0157094597459
+0.0154670108424
+0.01552804693
+0.0151991302358
+0.0156577486161
+0.0157891457491
+0.0158306841976
+0.0156958961708
+0.0152025211295
+0.0152796639624
+0.015305943389
+0.0153220501344
+0.015056712698
+0.0146226782974
+0.0151796325967
+0.0153457863906
+0.0152915320906
+0.0148651272009
+0.0149727880776
+0.0153330705391
+0.0154127565423
+0.0156780939786
+0.0155907784644
+0.0159129133711
+0.0157730390038
+0.0159383450743
+0.0156399464239
+0.0156323169129
+0.0153339182625
+0.0154119088189
+0.0151296169138
+0.01512622602
+0.0151253782966
+0.0151499622763
+0.0152983138781
+0.0150490831871
+0.0153661317532
+0.0149685494604
+0.0149744835245
+0.0146209828506
+0.0147405118554
+0.0147727253461
+0.0151923484482
+0.0154356450752
+0.0157416732365
+0.0154627722252
+0.0154008884142
+0.0151067283809
+0.0151058806575
+0.0151050329341
+0.0155831489535
+0.0156670735739
+0.0155093970143
+0.0150812966778
+0.014994828887
+0.0153313750922
+0.0156882666599
+0.0160273560354
+0.0156001034223
+0.0151296169138
+0.0148642794775
+0.0152372777905
+0.0151694599154
+0.0149524427151
+0.0149049702025
+0.0153245933047
+0.0154704017361
+0.0152525368124
+0.0151736985326
+0.0151041852106
+0.0152805116859
+0.0150482354637
+0.0152109983639
+0.015327136475
+0.0152262573858
+0.0150380627824
+0.0149498995448
+0.0151575917873
+0.0154805744174
+0.0155017675034
+0.0154551427142
+0.0152313437264
+0.015016021973
+0.015050778634
+0.0151033374872
+0.0150863830184
+0.0154381882455
+0.0152457550249
+0.0151898052779
+0.0149414223104
+0.015271186728
+</ColumnCells>
+    </DataColumn>
+  </DataSet>
+  <DataSet>
+    <ID>329 </ID>
+    <BroadcastTo>1 302 </BroadcastTo>
+    <Visible>1</Visible>
+    <DataSetName>Run 2</DataSetName>
+    <DataSetComments></DataSetComments>
+    <DataSetPosition>36</DataSetPosition>
+    <DataSetSourceName></DataSetSourceName>
+    <DataSetShowInDataBrowser>1</DataSetShowInDataBrowser>
+    <DataSetHistogram>0</DataSetHistogram>
+    <DataSetFFT>0</DataSetFFT>
+    <DataSetLatest>0</DataSetLatest>
+    <DataSetAutoCreated>0</DataSetAutoCreated>
+    <DataSetStoredRun>1</DataSetStoredRun>
+    <DataSetPrediction>0</DataSetPrediction>
+    <DataSetVideoAnalysis>0</DataSetVideoAnalysis>
+    <DataSetGraphMatch>0</DataSetGraphMatch>
+    <Metadata>
+      <DataMark>
+      </DataMark>
+      <DataTag>
+      </DataTag>
+    </Metadata>
+    <DataColumn>
+      <ID>330 </ID>
+      <BroadcastTo>3 17 302 328 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>Wavelength</DataObjectName>
+      <DataObjectShortName>λ</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>1</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>0</DataObjectThickLines>
+      <ColumnUnits>nm</ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>1</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1778899003</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>2</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>0</ColumnSensorColumn>
+      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>
+      <ColumnMatchTag></ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>4</ColumnLastDataCollectedMode>
+      <ColumnGroupID>325</ColumnGroupID>
+      <ColumnCells>
+380.6
+381.4
+382.3
+383.2
+384
+384.9
+385.7
+386.6
+387.4
+388.3
+389.2
+390
+390.9
+391.7
+392.6
+393.4
+394.3
+395.2
+396
+396.9
+397.7
+398.6
+399.4
+400.3
+401.2
+402
+402.9
+403.7
+404.6
+405.4
+406.3
+407.2
+408
+408.9
+409.7
+410.6
+411.4
+412.3
+413.1
+414
+414.9
+415.7
+416.6
+417.4
+418.3
+419.1
+420
+420.9
+421.7
+422.6
+423.4
+424.3
+425.1
+426
+426.9
+427.7
+428.6
+429.4
+430.3
+431.1
+432
+432.9
+433.7
+434.6
+435.4
+436.3
+437.1
+438
+438.9
+439.7
+440.6
+441.4
+442.3
+443.1
+444
+444.9
+445.7
+446.6
+447.4
+448.3
+449.1
+450
+450.9
+451.7
+452.6
+453.4
+454.3
+455.1
+456
+456.9
+457.7
+458.6
+459.4
+460.3
+461.1
+462
+462.9
+463.7
+464.6
+465.4
+466.3
+467.1
+468
+468.9
+469.7
+470.6
+471.4
+472.3
+473.1
+474
+474.9
+475.7
+476.6
+477.4
+478.3
+479.1
+480
+480.9
+481.7
+482.6
+483.4
+484.3
+485.1
+486
+486.9
+487.7
+488.6
+489.4
+490.3
+491.1
+492
+492.9
+493.7
+494.6
+495.4
+496.3
+497.1
+498
+498.8
+499.7
+500.6
+501.4
+502.3
+503.1
+504
+504.8
+505.7
+506.6
+507.4
+508.3
+509.1
+510
+510.8
+511.7
+512.6
+513.4
+514.2
+515
+515.8
+516.6
+517.4
+518.2
+519
+519.8
+520.6
+521.4
+522.3
+523.1
+523.9
+524.7
+525.5
+526.3
+527.1
+527.9
+528.7
+529.5
+530.3
+531.1
+532
+532.8
+533.6
+534.4
+535.2
+536
+536.8
+537.6
+538.4
+539.2
+540
+540.8
+541.7
+542.5
+543.3
+544.1
+544.9
+545.7
+546.5
+547.3
+548.1
+548.9
+549.7
+550.5
+551.4
+552.2
+553
+553.8
+554.6
+555.4
+556.2
+557
+557.8
+558.6
+559.4
+560.2
+561.1
+561.9
+562.7
+563.5
+564.3
+565.1
+565.9
+566.7
+567.5
+568.3
+569.1
+570
+570.8
+571.6
+572.4
+573.2
+574
+574.8
+575.6
+576.4
+577.2
+578
+578.8
+579.7
+580.5
+581.3
+582.1
+582.9
+583.7
+584.5
+585.3
+586.1
+586.9
+587.7
+588.5
+589.2
+590
+590.7
+591.5
+592.2
+593
+593.7
+594.4
+595.2
+595.9
+596.7
+597.4
+598.2
+598.9
+599.7
+600.4
+601.1
+601.9
+602.6
+603.4
+604.1
+604.9
+605.6
+606.4
+607.1
+607.8
+608.6
+609.3
+610.1
+610.8
+611.6
+612.3
+613
+613.8
+614.5
+615.3
+616
+616.8
+617.5
+618.3
+619
+619.7
+620.5
+621.2
+622
+622.7
+623.5
+624.2
+625
+625.7
+626.4
+627.2
+627.9
+628.7
+629.4
+630.2
+630.9
+631.6
+632.4
+633.1
+633.9
+634.6
+635.4
+636.1
+636.9
+637.6
+638.3
+639.1
+639.8
+640.6
+641.3
+642.1
+642.8
+643.6
+644.3
+645
+645.8
+646.5
+647.3
+648
+648.8
+649.5
+650.2
+651
+651.7
+652.5
+653.2
+654
+654.7
+655.5
+656.2
+656.9
+657.7
+658.4
+659.2
+659.9
+660.7
+661.4
+662.2
+662.9
+663.6
+664.4
+665.1
+665.9
+666.6
+667.4
+668.1
+668.9
+669.7
+670.4
+671.2
+672
+672.7
+673.5
+674.2
+675
+675.8
+676.5
+677.3
+678.1
+678.8
+679.6
+680.4
+681.1
+681.9
+682.7
+683.4
+684.2
+685
+685.7
+686.5
+687.2
+688
+688.8
+689.5
+690.3
+691.1
+691.8
+692.6
+693.4
+694.1
+694.9
+695.7
+696.4
+697.2
+698
+698.7
+699.5
+700.2
+701
+701.8
+702.5
+703.3
+704.1
+704.8
+705.6
+706.4
+707.1
+707.9
+708.7
+709.5
+710.3
+711.1
+711.9
+712.7
+713.5
+714.3
+715.1
+715.9
+716.7
+717.5
+718.3
+719.1
+719.9
+720.7
+721.5
+722.3
+723.1
+723.9
+724.7
+725.5
+726.3
+727.1
+727.9
+728.7
+729.5
+730.3
+731.1
+731.9
+732.7
+733.5
+734.3
+735.1
+735.9
+736.7
+737.5
+738.3
+739.1
+739.9
+740.7
+741.5
+742.3
+743.1
+743.9
+744.7
+745.5
+746.3
+747.1
+747.9
+748.7
+749.5
+750.3
+751.1
+751.9
+752.7
+753.5
+754.3
+755.1
+755.9
+756.7
+757.5
+758.3
+759.1
+759.9
+760.7
+761.5
+762.3
+763.1
+763.8
+764.6
+765.4
+766.2
+767
+767.8
+768.6
+769.4
+770.2
+771
+771.8
+772.6
+773.4
+774.2
+775
+775.8
+776.6
+777.4
+778.2
+779
+779.8
+780.6
+781.4
+782.2
+783
+783.8
+784.6
+785.4
+786.2
+787
+787.8
+788.6
+789.4
+790.2
+791
+791.8
+792.6
+793.4
+794.2
+795
+795.8
+796.6
+797.4
+798.2
+799
+799.8
+800.6
+801.4
+802.2
+803
+803.8
+804.6
+805.4
+806.2
+807
+807.8
+808.6
+809.4
+810.2
+811
+811.8
+812.6
+813.4
+814.2
+815
+815.8
+816.6
+817.4
+818.2
+819
+819.8
+820.6
+821.3
+822.1
+822.9
+823.7
+824.5
+825.3
+826.1
+826.9
+827.7
+828.5
+829.3
+830.1
+830.9
+831.7
+832.6
+833.5
+834.4
+835.2
+836.1
+837
+837.9
+838.8
+839.7
+840.6
+841.4
+842.3
+843.2
+844.1
+845
+845.9
+846.8
+847.6
+848.5
+849.4
+850.3
+851.2
+852.1
+853
+853.8
+854.7
+855.6
+856.5
+857.4
+858.3
+859.1
+860
+860.9
+861.8
+862.7
+863.6
+864.5
+865.3
+866.2
+867.1
+868
+868.9
+869.8
+870.7
+871.5
+872.4
+873.3
+874.2
+875.1
+876
+876.9
+877.7
+878.6
+879.5
+880.4
+881.3
+882.2
+883
+883.9
+884.8
+885.7
+886.6
+887.5
+888.4
+889.2
+890.1
+891
+891.9
+892.8
+893.7
+894.6
+895.4
+896.3
+897.2
+898.1
+899
+899.9
+</ColumnCells>
+    </DataColumn>
+    <DataColumn>
+      <ID>332 </ID>
+      <BroadcastTo>3 17 302 328 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>Fluorescence 405 nm</DataObjectName>
+      <DataObjectShortName>F 405</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0xffff| 0xffff 0x0</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>3</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>0</DataObjectThickLines>
+      <ColumnUnits>rel</ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>1</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1778898975</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>3</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>1</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>0</ColumnSensorColumn>
+      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>
+      <ColumnMatchTag></ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>4</ColumnLastDataCollectedMode>
+      <ColumnGroupID>327</ColumnGroupID>
+      <ColumnCells>
+0.0171151547519
+0.0171499114129
+0.0171117638582
+0.0173813399117
+0.01752884379
+0.0174686554259
+0.0172321405865
+0.0171193933691
+0.0172584200131
+0.0174822190009
+0.0175432550885
+0.0176882157965
+0.0174610259149
+0.0175330824072
+0.0174618736383
+0.0176941498605
+0.0174423759993
+0.0175305392369
+0.0177322974153
+0.0181002093877
+0.0179213397421
+0.017633113773
+0.0175949662182
+0.0177873994388
+0.0179213397421
+0.0177348405856
+0.0178018107373
+0.0178340242279
+0.0178467400795
+0.0180306960657
+0.0176034434526
+0.0176246365386
+0.0168057356968
+0.0168142129312
+0.0169388282767
+0.0175627527276
+0.018081559472
+0.0179594872969
+0.0177034748184
+0.0177170383934
+0.0179171011249
+0.0183163788646
+0.0182061748175
+0.0184537100616
+0.0178687808889
+0.0179857667235
+0.0178662377186
+0.0182977289489
+0.0180366301298
+0.0177178861168
+0.0172846994397
+0.0169091579563
+0.0168192992718
+0.0171304137738
+0.0173423446335
+0.0177238201809
+0.0175924230479
+0.0177458609903
+0.0176687181574
+0.0178357196748
+0.0177339928622
+0.0174822190009
+0.0176424387308
+0.0179527055094
+0.0181171638565
+0.0182561905004
+0.0184062375491
+0.018317226588
+0.0183825012928
+0.0180510414282
+0.0185071166383
+0.0183841967397
+0.018607148004
+0.0181697227097
+0.0183477446318
+0.0183825012928
+0.0187749972449
+0.0184723599773
+0.0184732077007
+0.0185376346821
+0.0186919203479
+0.018649534176
+0.0186046048337
+0.0185808685774
+0.0190377915109
+0.0194048557599
+0.0198126107339
+0.0195574459788
+0.0193243220332
+0.0195413392335
+0.0193734899926
+0.019998262167
+0.0200338665514
+0.0202686859439
+0.019845671948
+0.0200160643592
+0.0205170689114
+0.0204568805473
+0.0202390156235
+0.0197600518807
+0.0203780422675
+0.020599298085
+0.0212367861109
+0.0211053889779
+0.0210969117435
+0.0211681205124
+0.0213681832439
+0.0216886227037
+0.0219064876275
+0.0217174453006
+0.0216818409162
+0.0215962208489
+0.021519078016
+0.0215122962285
+0.0211299729576
+0.0212554360266
+0.0212630655375
+0.0216250434458
+0.0218412129227
+0.0220158439511
+0.022127743445
+0.0223676491781
+0.0224066444563
+0.0221023117418
+0.0221268957215
+0.022031102973
+0.0226024685707
+0.0223176334952
+0.0221438501903
+0.0220819663793
+0.0223388265812
+0.0225668641862
+0.0225422802065
+0.0224380102235
+0.0226499410832
+0.0227474292787
+0.0223328925171
+0.0223227198359
+0.0221353729559
+0.0230093758212
+0.0229466442868
+0.0231280571027
+0.0228449174741
+0.0230992345057
+0.0226262048269
+0.0226906318083
+0.022632138891
+0.0230865186542
+0.0231195798683
+0.0229246034774
+0.0231797682324
+0.0229678373727
+0.0232289361919
+0.0230314166306
+0.0230916049948
+0.0228491560913
+0.0228796741351
+0.0231178844214
+0.0231314479964
+0.022922060307
+0.0230008985868
+0.0233332061748
+0.0231272093792
+0.0226262048269
+0.0221319820622
+0.022500741758
+0.0222743995999
+0.0223684969016
+0.0221803022982
+0.0223998626688
+0.0223651060078
+0.0223566287734
+0.0225558437815
+0.0223862990938
+0.0219912599713
+0.0215614641879
+0.0216199571052
+0.0220039758229
+0.0216547137662
+0.0212952790282
+0.0207993608165
+0.0209638191636
+0.0209256716089
+0.0209731441215
+0.02125628375
+0.0209612759933
+0.0211647296186
+0.0208900672245
+0.02104180972
+0.02085446284
+0.0208781990963
+0.0209867076965
+0.0211282775107
+0.0209163466511
+0.02082733569
+0.0206213388944
+0.0206662682367
+0.020668811407
+0.0210596119122
+0.0210613073591
+0.0210740232107
+0.0204780736333
+0.0203373515424
+0.0204992667192
+0.0206789840882
+0.0209333011198
+0.0203763468206
+0.0203958444597
+0.0200321711045
+0.0207824063478
+0.0207145884727
+0.0210791095513
+0.0206349024694
+0.0203873672253
+0.0202508837517
+0.0197880267542
+0.0199389215262
+0.0197719200088
+0.0202686859439
+0.0200211506998
+0.0197159702619
+0.0194803031459
+0.0196413705993
+0.0201830658766
+0.0199414646966
+0.0195989844273
+0.0191607114095
+0.0194531759959
+0.0197803972432
+0.0198787331621
+0.0193378856082
+0.0192590473284
+0.019264133669
+0.0190055780202
+0.0185605232149
+0.0183706331646
+0.0183511355255
+0.0181909157956
+0.0181002093877
+0.0184689690835
+0.0189106329951
+0.018684290837
+0.018531700618
+0.0184426896569
+0.0186664886447
+0.0186876817307
+0.0182044793707
+0.0183223129286
+0.0182104134347
+0.0184231920178
+0.0182349974144
+0.0184053898256
+0.0186605545807
+0.0186266456431
+0.0180281528954
+0.0177755313107
+0.0177509473309
+0.0183825012928
+0.0182544950535
+0.0180900367064
+0.0175093461509
+0.0174652645321
+0.0173533650382
+0.0176348092198
+0.0179103193374
+0.0180001780219
+0.0181476819003
+0.0179433805515
+0.0179654213609
+0.0181409001127
+0.0177984198435
+0.0179806803828
+0.017992548511
+0.018247713266
+0.0182850130973
+0.0179679645313
+0.0181493773471
+0.0178408060154
+0.0179137102312
+0.0178213083764
+0.0180857980892
+0.0181010571111
+0.0184613395726
+0.0177729881403
+0.0178306333342
+0.0174084670617
+0.0176288751558
+0.0175135847681
+0.017895908039
+0.0177306019684
+0.0176593931996
+0.0170710731331
+0.0170490323237
+0.0169125488501
+0.0167413087154
+0.0170329255784
+0.0170388596424
+0.0171117638582
+0.016906614786
+0.0164836007901
+0.0166972270966
+0.0168320151234
+0.0170151233861
+0.0169990166408
+0.0169600213626
+0.0168693149547
+0.0164318896603
+0.0167209633529
+0.0168226901656
+0.0170532709409
+0.0166412773497
+0.0166743385638
+0.0167853903343
+0.0166565363716
+0.0167726744827
+0.0164869916838
+0.0167294405873
+0.0165014029823
+0.0162369132694
+0.0160953434552
+0.0165785458152
+0.0167294405873
+0.0165531141121
+0.0160063324941
+0.0162538677382
+0.0163038834211
+0.0164903825776
+0.0165649822402
+0.0167040088841
+0.0165683731339
+0.0164310419369
+0.0163962852759
+0.0163886557649
+0.0165098802167
+0.0164539304697
+0.0165531141121
+0.016297949357
+0.0159164738096
+0.0162826903351
+0.0167167247357
+0.0168159083781
+0.0162733653773
+0.0159987029831
+0.0161996134381
+0.0161673999474
+0.0163530513805
+0.0160851707739
+0.0163496604868
+0.0160402414316
+0.0163377923586
+0.0161487500318
+0.0163030356976
+0.0164115442978
+0.0163496604868
+0.0160114188347
+0.0161928316506
+0.0158952807236
+0.0161818112459
+0.0160868662208
+0.0165632867933
+0.0163666149555
+0.0160877139442
+0.0159698803862
+0.0162335223757
+0.0163030356976
+0.0168150606546
+0.0165700685808
+0.0166133024762
+0.0164369760009
+0.0164666463213
+0.0165929571137
+0.016222501971
+0.0161673999474
+0.0157409950578
+0.0159605554284
+0.0156350296279
+0.015689283928
+0.0153552808932
+0.0156774157999
+0.0157850766766
+0.0160673685817
+0.0159503827471
+0.0161309478396
+0.0156960657155
+0.0157630358672
+0.015260335868
+0.0154451395777
+0.0156104456482
+0.0161216228818
+0.0159741190034
+0.015696913439
+0.0152221883133
+0.0154714190043
+0.0158757830845
+0.0160928002848
+0.0158444173173
+0.0154697235574
+0.0155087188356
+0.0153934284479
+0.015273899443
+0.0150467095615
+0.0151391114163
+0.0149254851097
+0.014914464705
+0.0150602731365
+0.0150441663912
+0.0152069292914
+0.0151238523944
+0.0155282164747
+0.0156248569467
+0.0157291269296
+0.0158562854454
+0.0158740876376
+0.0159936166425
+0.0158435695939
+0.0160673685817
+0.0157969448047
+0.0156977611624
+0.0153222196791
+0.0154044488526
+0.0156960657155
+0.0156350296279
+0.0157664267609
+0.0157087815671
+0.0159495350237
+0.0156053593076
+0.0154502259183
+0.0153934284479
+0.0157596449734
+0.0156579181608
+0.0155180437934
+0.0156418114154
+0.0158884989361
+0.0156452023092
+0.015440053237
+0.0155002416012
+0.0155816230513
+0.0154502259183
+0.0150289073693
+0.0153306969134
+0.0152340564414
+0.0153374787009
+0.0151001161381
+0.0152984834228
+0.0151543704382
+0.0153103515509
+0.0153968193417
+0.0154010579589
+0.0154027534057
+0.0151247001178
+0.0152060815679
+0.0150679026474
+0.0151204615006
+0.0152171019727
+0.0154485304714
+0.01575879725
+0.0161385773505
+0.0161792680756
+0.0159698803862
+0.0157113247374
+0.0158028788688
+0.0156799589702
+0.0158444173173
+0.0156875884811
+0.0159876825784
+0.0157562540797
+0.0154180124276
+0.01532984919
+0.0153357832541
+0.0159359714487
+0.0157740562719
+0.0159257987674
+0.0156740249061
+0.0155010893246
+0.0158130515501
+0.0156045115841
+0.0158706967439
+0.0157342132703
+0.0156223137764
+0.0156943702686
+0.0154078397464
+0.0158435695939
+0.015911387469
+0.0155875571154
+0.0154230987683
+0.0150628163068
+0.0156816544171
+0.01557145037
+0.0153281537431
+0.0151840407585
+0.0152645744852
+0.0161072115833
+0.0160733026457
+0.0158181378907
+0.0154603985996
+0.0155697549232
+0.0154620940464
+0.0154807439621
+0.0154002102354
+0.0159012147877
+0.015876630808
+0.0155400846028
+0.0152018429508
+0.0153001788696
+0.0156045115841
+0.0160529572832
+0.0158384832532
+0.0158774785314
+0.0153790171494
+0.0157045429499
+0.0154442918542
+0.0158020311454
+0.0154782007918
+0.0159402100659
+0.0157630358672
+0.0153739308088
+0.0152577926977
+0.0155333028153
+0.0162428473335
+0.0161445114146
+0.0159300373846
+0.0156019684138
+0.0152798335071
+0.0151068979256
+0.0150034756661
+0.0154926120902
+0.0157825335063
+0.0157494722922
+0.0154086874698
+0.0155400846028
+0.0157299746531
+0.0159978552597
+0.0159410577893
+0.016174181735
+0.0155409323262
+0.0152866152946
+0.0151509795444
+0.0157486245687
+0.0162267405882
+0.0160546527301
+0.0160944957317
+0.0156426591389
+0.0157706653781
+0.0157096292905
+0.0156935225452
+0.0154239464917
+0.0152365996117
+0.0155706026466
+0.0160868662208
+0.0160928002848
+0.0156748726296
+0.0151679340132
+0.0149848257504
+0.0150619685834
+0.0153747785323
+0.0156172274357
+0.0157910107407
+0.0158266151251
+0.0157316700999
+0.015405296576
+0.0152298178242
+0.0155875571154
+0.0158851080424
+0.0160376982613
+0.0157791426125
+0.0156791112467
+0.0157342132703
+0.0156146842654
+0.0156604613311
+0.015716411078
+0.0158257674016
+0.0159724235565
+0.0155892525622
+0.0154146215339
+0.0152094724617
+0.0153095038275
+0.0154951552605
+0.0152594881446
+0.0149610894942
+0.0150373846036
+0.0153052652103
+0.0159215601502
+0.0158537422751
+0.0157359087171
+0.0155985775201
+0.0156494409264
+0.0158681535736
+0.0159393623424
+0.0159775098972
+0.0158452650407
+0.0156435068623
+0.0152620313149
+0.0153061129337
+0.0149212464925
+0.0154214033214
+0.0152111679086
+0.0153764739791
+0.0151569136085
+0.0154620940464
+0.0157121724609
+0.0156418114154
+0.0154671803871
+0.0154705712808
+0.0156443545858
+0.015724040589
+0.0155799276044
+0.01530272204
+0.0155146528996
+0.0159817485144
+0.0164013716165
+0.0161301001161
+0.0157172588015
+0.0154790485152
+0.0151119842663
+0.0153239151259
+0.0151492840976
+0.0155621254122
+0.0153629104041
+0.0158350923595
+0.0157681222078
+0.0157986402516
+0.0153586717869
+0.01530272204
+0.0156384205217
+0.0158978238939
+0.0159910734722
+0.0158842603189
+0.0159817485144
+0.0159020625111
+0.0157231928656
+0.0152857675712
+0.0156384205217
+0.0157316700999
+0.0158656104033
+0.0152510109102
+0.0152967879759
+0.0152009952273
+0.0156189228826
+0.0155333028153
+0.015675720353
+</ColumnCells>
+    </DataColumn>
+  </DataSet>
+  <DataSet>
+    <ID>334 </ID>
+    <BroadcastTo>1 302 </BroadcastTo>
+    <Visible>1</Visible>
+    <DataSetName>Run 3</DataSetName>
+    <DataSetComments></DataSetComments>
+    <DataSetPosition>37</DataSetPosition>
+    <DataSetSourceName></DataSetSourceName>
+    <DataSetShowInDataBrowser>1</DataSetShowInDataBrowser>
+    <DataSetHistogram>0</DataSetHistogram>
+    <DataSetFFT>0</DataSetFFT>
+    <DataSetLatest>0</DataSetLatest>
+    <DataSetAutoCreated>0</DataSetAutoCreated>
+    <DataSetStoredRun>1</DataSetStoredRun>
+    <DataSetPrediction>0</DataSetPrediction>
+    <DataSetVideoAnalysis>0</DataSetVideoAnalysis>
+    <DataSetGraphMatch>0</DataSetGraphMatch>
+    <Metadata>
+      <DataMark>
+      </DataMark>
+      <DataTag>
+      </DataTag>
+    </Metadata>
+    <DataColumn>
+      <ID>335 </ID>
+      <BroadcastTo>3 17 302 328 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>Wavelength</DataObjectName>
+      <DataObjectShortName>λ</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>1</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>0</DataObjectThickLines>
+      <ColumnUnits>nm</ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>1</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1778899290</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>2</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>0</ColumnSensorColumn>
+      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>
+      <ColumnMatchTag></ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>4</ColumnLastDataCollectedMode>
+      <ColumnGroupID>325</ColumnGroupID>
+      <ColumnCells>
+380.6
+381.4
+382.3
+383.2
+384
+384.9
+385.7
+386.6
+387.4
+388.3
+389.2
+390
+390.9
+391.7
+392.6
+393.4
+394.3
+395.2
+396
+396.9
+397.7
+398.6
+399.4
+400.3
+401.2
+402
+402.9
+403.7
+404.6
+405.4
+406.3
+407.2
+408
+408.9
+409.7
+410.6
+411.4
+412.3
+413.1
+414
+414.9
+415.7
+416.6
+417.4
+418.3
+419.1
+420
+420.9
+421.7
+422.6
+423.4
+424.3
+425.1
+426
+426.9
+427.7
+428.6
+429.4
+430.3
+431.1
+432
+432.9
+433.7
+434.6
+435.4
+436.3
+437.1
+438
+438.9
+439.7
+440.6
+441.4
+442.3
+443.1
+444
+444.9
+445.7
+446.6
+447.4
+448.3
+449.1
+450
+450.9
+451.7
+452.6
+453.4
+454.3
+455.1
+456
+456.9
+457.7
+458.6
+459.4
+460.3
+461.1
+462
+462.9
+463.7
+464.6
+465.4
+466.3
+467.1
+468
+468.9
+469.7
+470.6
+471.4
+472.3
+473.1
+474
+474.9
+475.7
+476.6
+477.4
+478.3
+479.1
+480
+480.9
+481.7
+482.6
+483.4
+484.3
+485.1
+486
+486.9
+487.7
+488.6
+489.4
+490.3
+491.1
+492
+492.9
+493.7
+494.6
+495.4
+496.3
+497.1
+498
+498.8
+499.7
+500.6
+501.4
+502.3
+503.1
+504
+504.8
+505.7
+506.6
+507.4
+508.3
+509.1
+510
+510.8
+511.7
+512.6
+513.4
+514.2
+515
+515.8
+516.6
+517.4
+518.2
+519
+519.8
+520.6
+521.4
+522.3
+523.1
+523.9
+524.7
+525.5
+526.3
+527.1
+527.9
+528.7
+529.5
+530.3
+531.1
+532
+532.8
+533.6
+534.4
+535.2
+536
+536.8
+537.6
+538.4
+539.2
+540
+540.8
+541.7
+542.5
+543.3
+544.1
+544.9
+545.7
+546.5
+547.3
+548.1
+548.9
+549.7
+550.5
+551.4
+552.2
+553
+553.8
+554.6
+555.4
+556.2
+557
+557.8
+558.6
+559.4
+560.2
+561.1
+561.9
+562.7
+563.5
+564.3
+565.1
+565.9
+566.7
+567.5
+568.3
+569.1
+570
+570.8
+571.6
+572.4
+573.2
+574
+574.8
+575.6
+576.4
+577.2
+578
+578.8
+579.7
+580.5
+581.3
+582.1
+582.9
+583.7
+584.5
+585.3
+586.1
+586.9
+587.7
+588.5
+589.2
+590
+590.7
+591.5
+592.2
+593
+593.7
+594.4
+595.2
+595.9
+596.7
+597.4
+598.2
+598.9
+599.7
+600.4
+601.1
+601.9
+602.6
+603.4
+604.1
+604.9
+605.6
+606.4
+607.1
+607.8
+608.6
+609.3
+610.1
+610.8
+611.6
+612.3
+613
+613.8
+614.5
+615.3
+616
+616.8
+617.5
+618.3
+619
+619.7
+620.5
+621.2
+622
+622.7
+623.5
+624.2
+625
+625.7
+626.4
+627.2
+627.9
+628.7
+629.4
+630.2
+630.9
+631.6
+632.4
+633.1
+633.9
+634.6
+635.4
+636.1
+636.9
+637.6
+638.3
+639.1
+639.8
+640.6
+641.3
+642.1
+642.8
+643.6
+644.3
+645
+645.8
+646.5
+647.3
+648
+648.8
+649.5
+650.2
+651
+651.7
+652.5
+653.2
+654
+654.7
+655.5
+656.2
+656.9
+657.7
+658.4
+659.2
+659.9
+660.7
+661.4
+662.2
+662.9
+663.6
+664.4
+665.1
+665.9
+666.6
+667.4
+668.1
+668.9
+669.7
+670.4
+671.2
+672
+672.7
+673.5
+674.2
+675
+675.8
+676.5
+677.3
+678.1
+678.8
+679.6
+680.4
+681.1
+681.9
+682.7
+683.4
+684.2
+685
+685.7
+686.5
+687.2
+688
+688.8
+689.5
+690.3
+691.1
+691.8
+692.6
+693.4
+694.1
+694.9
+695.7
+696.4
+697.2
+698
+698.7
+699.5
+700.2
+701
+701.8
+702.5
+703.3
+704.1
+704.8
+705.6
+706.4
+707.1
+707.9
+708.7
+709.5
+710.3
+711.1
+711.9
+712.7
+713.5
+714.3
+715.1
+715.9
+716.7
+717.5
+718.3
+719.1
+719.9
+720.7
+721.5
+722.3
+723.1
+723.9
+724.7
+725.5
+726.3
+727.1
+727.9
+728.7
+729.5
+730.3
+731.1
+731.9
+732.7
+733.5
+734.3
+735.1
+735.9
+736.7
+737.5
+738.3
+739.1
+739.9
+740.7
+741.5
+742.3
+743.1
+743.9
+744.7
+745.5
+746.3
+747.1
+747.9
+748.7
+749.5
+750.3
+751.1
+751.9
+752.7
+753.5
+754.3
+755.1
+755.9
+756.7
+757.5
+758.3
+759.1
+759.9
+760.7
+761.5
+762.3
+763.1
+763.8
+764.6
+765.4
+766.2
+767
+767.8
+768.6
+769.4
+770.2
+771
+771.8
+772.6
+773.4
+774.2
+775
+775.8
+776.6
+777.4
+778.2
+779
+779.8
+780.6
+781.4
+782.2
+783
+783.8
+784.6
+785.4
+786.2
+787
+787.8
+788.6
+789.4
+790.2
+791
+791.8
+792.6
+793.4
+794.2
+795
+795.8
+796.6
+797.4
+798.2
+799
+799.8
+800.6
+801.4
+802.2
+803
+803.8
+804.6
+805.4
+806.2
+807
+807.8
+808.6
+809.4
+810.2
+811
+811.8
+812.6
+813.4
+814.2
+815
+815.8
+816.6
+817.4
+818.2
+819
+819.8
+820.6
+821.3
+822.1
+822.9
+823.7
+824.5
+825.3
+826.1
+826.9
+827.7
+828.5
+829.3
+830.1
+830.9
+831.7
+832.6
+833.5
+834.4
+835.2
+836.1
+837
+837.9
+838.8
+839.7
+840.6
+841.4
+842.3
+843.2
+844.1
+845
+845.9
+846.8
+847.6
+848.5
+849.4
+850.3
+851.2
+852.1
+853
+853.8
+854.7
+855.6
+856.5
+857.4
+858.3
+859.1
+860
+860.9
+861.8
+862.7
+863.6
+864.5
+865.3
+866.2
+867.1
+868
+868.9
+869.8
+870.7
+871.5
+872.4
+873.3
+874.2
+875.1
+876
+876.9
+877.7
+878.6
+879.5
+880.4
+881.3
+882.2
+883
+883.9
+884.8
+885.7
+886.6
+887.5
+888.4
+889.2
+890.1
+891
+891.9
+892.8
+893.7
+894.6
+895.4
+896.3
+897.2
+898.1
+899
+899.9
+</ColumnCells>
+    </DataColumn>
+    <DataColumn>
+      <ID>337 </ID>
+      <BroadcastTo>3 17 302 328 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>Fluorescence 405 nm</DataObjectName>
+      <DataObjectShortName>F 405</DataObjectShortName>
+      <DataObjectColor>0x0 0x8b8b 0x4545| 0xffff 0x0</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>3</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>0</DataObjectThickLines>
+      <ColumnUnits>rel</ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>1</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1778898975</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>0</ColumnUserCreated>
+      <ColumnPPStyle>4</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>1</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>0</ColumnForceScientific>
+      <ColumnSensorColumn>0</ColumnSensorColumn>
+      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>
+      <ColumnMatchTag></ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>4</ColumnLastDataCollectedMode>
+      <ColumnGroupID>327</ColumnGroupID>
+      <ColumnCells>
+0.0172823682002
+0.016731347965
+0.0165465442554
+0.0165567169367
+0.0170034671889
+0.0171586005781
+0.0173213634784
+0.0173222112018
+0.0175010808474
+0.0171407983859
+0.0174256334613
+0.0172170934954
+0.0172984749455
+0.0169297152497
+0.0169449742716
+0.0171246916406
+0.0174620855692
+0.0175451624662
+0.017554487424
+0.0175739850631
+0.0172840636471
+0.0171874231751
+0.0174163085035
+0.0177935454337
+0.0177401388571
+0.0176884277273
+0.017651127896
+0.0177350525165
+0.0173484906284
+0.017755397879
+0.0179283334605
+0.0178952722464
+0.0175121012521
+0.0174510651645
+0.0175816145741
+0.0176053508303
+0.0176121326179
+0.0171670778125
+0.0172518501564
+0.0173467951815
+0.017768961454
+0.0174841263786
+0.0173756177785
+0.0173205157549
+0.0178757746073
+0.0176663869179
+0.0178215203072
+0.0179113789917
+0.0177384434102
+0.017651127896
+0.0173450997347
+0.0179842832074
+0.0180131058044
+0.0180131058044
+0.0176138280647
+0.0178435611166
+0.017776590965
+0.01781728169
+0.0176791027695
+0.0178062612853
+0.0180614260404
+0.0183216771361
+0.0181317870858
+0.0183971245221
+0.0182860727516
+0.018530217102
+0.0180851622967
+0.0176214575757
+0.0175587260412
+0.0179122267152
+0.0185319125489
+0.0186853504913
+0.0188430270509
+0.0190252875902
+0.0189227130541
+0.0189464493104
+0.0189829014182
+0.0192965590906
+0.0195542670159
+0.0195050990565
+0.0195195103549
+0.0192770614515
+0.0192117867467
+0.0196144553801
+0.0196102167629
+0.0198043454303
+0.0192846909624
+0.0194508447564
+0.0195788509957
+0.0196695574036
+0.0198552088367
+0.0196559938286
+0.0201002009105
+0.0198162135585
+0.0204460720734
+0.0204876105219
+0.0207342980426
+0.0207817705552
+0.0207648160864
+0.0210784737587
+0.0210089604367
+0.0211700278901
+0.0212700592559
+0.0214667310936
+0.0213980654951
+0.0214039995592
+0.0218083636394
+0.0222483321041
+0.0225357103499
+0.0220813305867
+0.0219423039428
+0.0220228376694
+0.0220270762866
+0.0221254122055
+0.0215353966922
+0.0219151767927
+0.0215337012453
+0.0219007654943
+0.0216845960174
+0.0222508752745
+0.0227849410408
+0.0227501843798
+0.0227256004001
+0.0226221781406
+0.0224314403669
+0.0221813619525
+0.0223449725761
+0.0228502157456
+0.0233478294041
+0.0229799174317
+0.0229892423896
+0.0227230572298
+0.0225416444139
+0.0224678924748
+0.0227357730814
+0.0232791638056
+0.0233758042776
+0.0233029000619
+0.0231469189492
+0.0231621779711
+0.0232020209727
+0.0231655688648
+0.0231647211414
+0.023397845087
+0.0238903724049
+0.0241124759458
+0.0240132923035
+0.0239759924722
+0.0237903410391
+0.0240031196223
+0.0236538575655
+0.0240438103473
+0.023992946941
+0.0242862592508
+0.023979383366
+0.0239709061316
+0.0238632452549
+0.0242548934835
+0.0242633707179
+0.0242116595882
+0.0235334808372
+0.0234605766215
+0.0233834337886
+0.023757279825
+0.0235928214779
+0.0235936692014
+0.0234215813433
+0.0231257258632
+0.0229299017489
+0.0227094936548
+0.0224661970279
+0.0220347057976
+0.0217422412112
+0.0215710010766
+0.0215345489687
+0.0223593838746
+0.0221406712274
+0.0220965896086
+0.0213149885981
+0.0215209853937
+0.0214785992218
+0.0213395725778
+0.0215896509923
+0.0211768096776
+0.0215964327798
+0.0214141722404
+0.0220075786475
+0.0215387875859
+0.0216820528471
+0.0217218958487
+0.0217100277206
+0.0212963386825
+0.021254800234
+0.0210988191212
+0.0209818332867
+0.0209445334554
+0.0210767783118
+0.0213845019201
+0.0211479870807
+0.0210157422243
+0.021019133118
+0.0208165272162
+0.0206995413816
+0.0205969668455
+0.0207122572332
+0.020735145766
+0.0206630892738
+0.0205944236752
+0.02065969838
+0.0209309698804
+0.0209216449226
+0.0210089604367
+0.0204469197969
+0.0210157422243
+0.020791095513
+0.0207453184473
+0.0202595729169
+0.0202536388529
+0.0203629951765
+0.0197924773022
+0.0197017708943
+0.0198806405398
+0.020134109848
+0.0201298712308
+0.0199425243509
+0.019788238685
+0.0191515983825
+0.0192643455999
+0.0194254130532
+0.0203434975374
+0.0196068258691
+0.0194618651611
+0.0188294634758
+0.0192160253639
+0.0190125717386
+0.0191253189559
+0.0187006095132
+0.0188854132228
+0.0185013945051
+0.0187667319414
+0.0184946127175
+0.0187006095132
+0.0184039063096
+0.0184895263769
+0.018141959767
+0.0185819282317
+0.0184039063096
+0.0183394793283
+0.0181343302561
+0.018087705467
+0.0186141417224
+0.0184937649941
+0.0184666378441
+0.0180436238482
+0.017921551673
+0.0178969676933
+0.0179707196324
+0.0180927918076
+0.018280986411
+0.0184089926502
+0.0180910963607
+0.0179902172715
+0.0177147071539
+0.0179724150793
+0.01779015454
+0.0181656960233
+0.0180766850623
+0.0182301230047
+0.0177859159228
+0.0181801073218
+0.0180749896154
+0.0182419911328
+0.0177520069852
+0.0177706569009
+0.0179656332918
+0.0180198875919
+0.0180724464451
+0.0177893068165
+0.01754855336
+0.0174595423989
+0.0175587260412
+0.0178020226681
+0.0174002017582
+0.0173018658393
+0.017312886244
+0.0177062299196
+0.0176807982164
+0.0175867009147
+0.0175180353162
+0.017423090291
+0.0170907827031
+0.0168780041199
+0.0172187889423
+0.0177325093462
+0.0175477056365
+0.0172416774751
+0.0171450370031
+0.0169721014216
+0.0166686164306
+0.0163074862457
+0.0163507201411
+0.0167305002416
+0.0171009553843
+0.0171221484703
+0.0168525724168
+0.0164473606131
+0.0164126039521
+0.0167338911354
+0.0166508142384
+0.0167847545417
+0.016365979163
+0.0164397311021
+0.0164863558913
+0.0168559633105
+0.016800861287
+0.0165762145758
+0.016186261794
+0.0162879886066
+0.0163981926536
+0.016344786077
+0.0164075176115
+0.0164727923162
+0.0163202020973
+0.016081991811
+0.0159997626374
+0.0161286166001
+0.0161760891127
+0.0158963403779
+0.0161582869205
+0.0161421801751
+0.0161320074939
+0.0161150530251
+0.0162320388596
+0.016489746785
+0.016254079669
+0.0162320388596
+0.0167305002416
+0.0164821172741
+0.0163829336317
+0.0156140484728
+0.0158395429075
+0.0159904376796
+0.0164024312708
+0.0162108457737
+0.0159709400405
+0.0156759322839
+0.0158573450997
+0.0159938285734
+0.0157106889448
+0.0156886481354
+0.0156852572417
+0.016393106313
+0.0160463874266
+0.0156165916431
+0.015369056399
+0.0158005476293
+0.0159845036155
+0.0162464501581
+0.0160362147453
+0.0161218348126
+0.0157039071573
+0.015763247798
+0.0156301552182
+0.0156293074947
+0.0155716623009
+0.0156750845604
+0.0158251316091
+0.0161150530251
+0.0159726354874
+0.0162294956893
+0.0160726668532
+0.0166007985555
+0.0160404533625
+0.0159955240202
+0.0155937031103
+0.0153894017616
+0.015701363987
+0.015923467528
+0.0162176275612
+0.015915838017
+0.0155504692149
+0.0156861049651
+0.015486889957
+0.0155860735993
+0.0156072666853
+0.0157683341387
+0.0158217407153
+0.0158005476293
+0.0159539855717
+0.0158921017607
+0.016143875622
+0.0160345192984
+0.0162973135644
+0.0162074548799
+0.0160743623
+0.0158615837169
+0.0153639700584
+0.0154411128913
+0.0151910344769
+0.0154122902944
+0.0153682086756
+0.0158607359935
+0.0158666700576
+0.016165068708
+0.0154453515085
+0.0156360892822
+0.0153317565677
+0.0159802649983
+0.0162362774768
+0.0164566855709
+0.0160404533625
+0.015425006146
+0.0151240643253
+0.015196968541
+0.0153249747802
+0.0155021489789
+0.0154436560616
+0.0155479260446
+0.0154216152522
+0.0156293074947
+0.0156861049651
+0.0154258538694
+0.0157072980511
+0.0157640955215
+0.0158912540373
+0.0156004848978
+0.0154936717445
+0.0154860422336
+0.0154741741054
+0.0153444724193
+0.0156869526886
+0.0154080516772
+0.0155233420649
+0.0153181929927
+0.0155547078321
+0.0154046607835
+0.0155411442571
+0.0155962462806
+0.0157174707323
+0.0155759009181
+0.015293609013
+0.0155199511711
+0.0154343311038
+0.0155962462806
+0.0152758068208
+0.0157522273933
+0.0158548019294
+0.0157751159262
+0.0154919762977
+0.0153580359943
+0.0154156811882
+0.0154784127226
+0.0154131380179
+0.0156988208167
+0.0152461365004
+0.015535210193
+0.0153580359943
+0.0155852258759
+0.0154504378492
+0.0154402651679
+0.0152885226724
+0.0155470783212
+0.0159616150827
+0.0159327924858
+0.015819197545
+0.0154801081695
+0.0155614896196
+0.0153020862474
+0.015231725202
+0.0153792290803
+0.0156954299229
+0.0159870467859
+0.0157937658418
+0.015736120648
+0.0155445351509
+0.0158480201419
+0.0155318192993
+0.0151689936675
+0.015106262133
+0.0151884913066
+0.0155843781525
+0.0154818036164
+0.0158175020981
+0.0157098412214
+0.015853954206
+0.0155377533633
+0.015266481863
+0.0149256970406
+0.0146671413918
+0.0148688995702
+0.0149545196375
+0.0156267643244
+0.0160226511703
+0.0156115053025
+0.01537668591
+0.0152817408849
+0.0157607046277
+0.015542839704
+0.0149095902953
+0.0147688682044
+0.0149545196375
+0.0155903122165
+0.015397878996
+0.0155623373431
+0.015486889957
+0.0159556810186
+0.0158081771403
+0.0156335461119
+0.0155513169384
+0.0151308461128
+0.0152249434145
+0.0150850690471
+0.0156064189619
+0.0151944253707
+0.0152961521833
+0.015057941897
+0.0153707518459
+0.0154097471241
+0.0152342683723
+0.0153427769724
+0.0155708145775
+0.0157785068199
+0.0155445351509
+0.0154394174445
+0.0149952103626
+0.0151367801768
+0.0152613955223
+0.0156140484728
+0.0156216779838
+0.01559115994
+0.0155623373431
+0.0150613327908
+0.0147052889465
+0.0151723845613
+0.0154707832117
+0.0154809558929
+0.0150274238532
+0.0154224629757
+0.0153656655053
+0.0154267015929
+0.0152308774785
+0.0148985698906
+0.0151935776472
+0.0151113484737
+0.0156937344761
+0.0154792604461
+0.0154894331273
+0.0156411756229
+0.0153910972084
+0.0152690250333
+0.0150859167705
+0.0151944253707
+0.0154919762977
+0.0153037816943
+0.0156521960276
+0.01540381306
+0.0153944881022
+0.014795147631
+0.0148561837186
+0.0151367801768
+0.0152902181192
+0.0154317879335
+0.0158183498216
+0.0157903749481
+0.0155436874274
+0.0151664504972
+0.0153936403788
+0.0156115053025
+0.0153529496537
+0.0152410501598
+0.0150401397048
+0.0146306892839
+0.0145518510041
+0.0147705636513
+0.0152605477989
+0.015548773768
+0.0152893703958
+0.0152122275629
+0.014719700245
+0.0149485855734
+0.015017251172
+0.0155877690462
+0.0156191348135
+0.0158734518451
+0.0157827454371
+0.0156369370057
+0.0158412383544
+0.0160726668532
+0.0156971253698
+0.0153275179505
+0.0148960267202
+0.0153732950162
+0.0152919135661
+0.0155207988946
+0.0154156811882
+0.015459762807
+0.0153885540381
+0.0155097784899
+0.0153046294177
+0.0148985698906
+0.0148019294185
+0.0149901240219
+0.0154555241898
+0.015840390631
+0.0163210498207
+0.0160302806812
+0.0153927926553
+0.014636623348
+0.0147841272263
+0.0148816154218
+0.0155284284055
+0.0154190720819
+0.0158488678653
+0.0154572196367
+0.0156683027729
+0.0151901867535
+0.0152690250333
+0.0153699041225
+0.0154207675288
+0.0153224316099
+0.0150647236845
+0.0152969999068
+0.0153190407162
+0.0156683027729
+0.0156818663479
+0.0154623059773
+0.01540381306
+0.0151630596034
+0.0155182557243
+0.0150765918127
+0.0150248806829
+0.0153682086756
+0.015867517781
+0.0159743309343
+0.0152690250333
+0.0150460737689
+0.0154300924866
+0.0156233734307
+0.0159861990624
+0.0157539228402
+</ColumnCells>
+    </DataColumn>
+  </DataSet>
+  <DataSourceServer>
+    <ID>13 </ID>
+    <BroadcastTo>0 </BroadcastTo>
+    <Visible>1</Visible>
+  </DataSourceServer>
+  <MBLBrain>
+    <MBLCollectionUserCollectMode>4</MBLCollectionUserCollectMode>
+    <MBLCollectionDropCounterMode>0</MBLCollectionDropCounterMode>
+    <MBLCollectionTimeUnit>1</MBLCollectionTimeUnit>
+    <MBLCollectionSampleAtZero>1</MBLCollectionSampleAtZero>
+    <MBLCollectionRepeat>0</MBLCollectionRepeat>
+    <MBLCollectionEnhancedTiming>0</MBLCollectionEnhancedTiming>
+    <MBLFastStart>0</MBLFastStart>
+    <MBLCollectionDeltaT>1</MBLCollectionDeltaT>
+    <MBLCollectionNumSamples>11</MBLCollectionNumSamples>
+    <MBLCollectionMaxDuration>10</MBLCollectionMaxDuration>
+    <MBLCollectionOversampling>1</MBLCollectionOversampling>
+    <MBLCollectionNumEWEColumns>1</MBLCollectionNumEWEColumns>
+    <MBLColumnHeader>
+      <MBLColumnHeaderName>Entry</MBLColumnHeaderName>
+      <MBLColumnHeaderShortName>Entry</MBLColumnHeaderShortName>
+      <MBLColumnHeaderUnits></MBLColumnHeaderUnits>
+    </MBLColumnHeader>
+    <MBLColumnHeader>
+      <MBLColumnHeaderName></MBLColumnHeaderName>
+      <MBLColumnHeaderShortName></MBLColumnHeaderShortName>
+      <MBLColumnHeaderUnits></MBLColumnHeaderUnits>
+    </MBLColumnHeader>
+    <MBLColumnHeader>
+      <MBLColumnHeaderName></MBLColumnHeaderName>
+      <MBLColumnHeaderShortName></MBLColumnHeaderShortName>
+      <MBLColumnHeaderUnits></MBLColumnHeaderUnits>
+    </MBLColumnHeader>
+    <MBLCollectionSelectedEventTime>0</MBLCollectionSelectedEventTime>
+    <MBLCollectionSelectedEventName>Event Number</MBLCollectionSelectedEventName>
+    <MBLCollectionSelectedEventShortName>Event</MBLCollectionSelectedEventShortName>
+    <MBLCollectionSelectedEventUnits></MBLCollectionSelectedEventUnits>
+    <MBLCollectionEndDigitalAfterNum>0</MBLCollectionEndDigitalAfterNum>
+    <MBLCollectionNumDigitalEvents>10</MBLCollectionNumDigitalEvents>
+    <MBLCollectionTriggerEnabled>0</MBLCollectionTriggerEnabled>
+    <MBLTriggerType>0</MBLTriggerType>
+    <MBLTriggerValue>0</MBLTriggerValue>
+    <MBLTriggerUseConstant>0</MBLTriggerUseConstant>
+    <MBLTriggerConstant></MBLTriggerConstant>
+    <MBLTriggerPreTriggerData>0</MBLTriggerPreTriggerData>
+    <MBLRadiationInterval>5</MBLRadiationInterval>
+    <MBLRadiationIntervalTimeUnit>1</MBLRadiationIntervalTimeUnit>
+    <MBLStoreLatestMax>0</MBLStoreLatestMax>
+    <MBLEWEAverageData>0</MBLEWEAverageData>
+    <MBLSEAverageData>0</MBLSEAverageData>
+    <MBLContinuous>0</MBLContinuous>
+    <MBLCollectionMiniGCStartTemp>35</MBLCollectionMiniGCStartTemp>
+    <MBLCollectionMiniGCHoldTime>2</MBLCollectionMiniGCHoldTime>
+    <MBLCollectionMiniGCRampRate>5</MBLCollectionMiniGCRampRate>
+    <MBLCollectionMiniGCFinalTemp>65</MBLCollectionMiniGCFinalTemp>
+    <MBLCollectionMiniGCFinalHoldTime>12</MBLCollectionMiniGCFinalHoldTime>
+    <MBLCollectionMiniGCTotalLength>20</MBLCollectionMiniGCTotalLength>
+    <MBLCollectionMiniGCPressure>7</MBLCollectionMiniGCPressure>
+    <MBLGoogleMapsMarkerOptions>0</MBLGoogleMapsMarkerOptions>
+    <MBLGoogleMapsOpenAnnotations>0</MBLGoogleMapsOpenAnnotations>
+    <GoogleMapsSettings>
+      <GoogleMapsLatitudeColumnID>0</GoogleMapsLatitudeColumnID>
+      <GoogleMapsLongitudeColumnID>0</GoogleMapsLongitudeColumnID>
+      <GoogleMapsShowMarkers>1</GoogleMapsShowMarkers>
+      <GoogleMapsMarkerOptions>0</GoogleMapsMarkerOptions>
+      <GoogleMapsValueColumnID>0</GoogleMapsValueColumnID>
+      <GoogleMapsOpenAnnotations>0</GoogleMapsOpenAnnotations>
+      <GoogleMapsDrawLine>0</GoogleMapsDrawLine>
+      <GoogleMapsDrawLineSingleColor>0</GoogleMapsDrawLineSingleColor>
+      <GoogleMapsingleColor>0x0 0x0 0x0| 0xffff 0x0</GoogleMapsingleColor>
+      <GoogleMapsDrawLineColumnID>0</GoogleMapsDrawLineColumnID>
+      <GoogleMapsDrawLineAutoScale>0</GoogleMapsDrawLineAutoScale>
+      <GoogleMapsDrawLineSmooth>1</GoogleMapsDrawLineSmooth>
+      <GoogleMapsDrawLineMin>0</GoogleMapsDrawLineMin>
+      <GoogleMapsDrawLineMax>0</GoogleMapsDrawLineMax>
+    </GoogleMapsSettings>
+  </MBLBrain>
+  <FileCoherence>1</FileCoherence>
+</Document>

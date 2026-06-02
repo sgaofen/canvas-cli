@@ -1,0 +1,6 @@
+=== Table 0 ===
+Fluorescence / Intensity | Volume of 0.01 M MgCl2 (mL) | Volume of 1 mM HQS (mL)
+0.031250902 | 0.8 | 100
+0.049490754 | 0.8 | 50
+0.059803507 | 2 | 100
+0.085834029 | 3.6 | 100
