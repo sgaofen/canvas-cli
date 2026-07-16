@@ -26,6 +26,7 @@ import typer
 from canvasapi.exceptions import CanvasException, ResourceDoesNotExist
 from rich.console import Console
 
+from .. import __version__
 from ..client import get_canvas, get_user_courses
 from ..config import load_config
 from ..extract import extract_links as _extract_links
@@ -167,7 +168,7 @@ def _read_url(target_url: str) -> dict:
         with httpx.Client(
             timeout=httpx.Timeout(30.0, read=120.0),
             follow_redirects=True,
-            headers={"User-Agent": "canvas-cli/0.1 (+https://github.com/local)"},
+            headers={"User-Agent": f"canvas-cli/{__version__} (+https://github.com/sgaofen/canvas-cli)"},
         ) as client:
             resp = client.get(fetch_url)
             resp.raise_for_status()

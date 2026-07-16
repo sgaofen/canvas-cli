@@ -16,6 +16,7 @@ from pathlib import Path
 
 from mcp.server.fastmcp import FastMCP
 
+from . import __version__
 from .client import get_canvas, get_user_courses
 from .config import load_config
 from .extract import extract_links, extract_pdf, extract_docx, to_markdown
@@ -176,7 +177,11 @@ def read_file(file_id: int) -> str:
                         "extracted_chars": len(text),
                         "links": extract_links(text),
                     })
-    except SystemExit:
+    except Exception:
+        # Local cache lookup is best-effort. Any failure here — including the
+        # typer.Exit that load_config() raises when no config exists (typer.Exit
+        # subclasses RuntimeError, NOT SystemExit) — falls through to the
+        # authoritative remote download below.
         pass
 
     url = getattr(f, "url", "")
@@ -230,7 +235,7 @@ def read_url(url: str) -> str:
     try:
         with httpx.Client(
             timeout=httpx.Timeout(20.0, read=60.0), follow_redirects=True,
-            headers={"User-Agent": "canvas-cli-mcp/0.1"},
+            headers={"User-Agent": f"canvas-cli-mcp/{__version__}"},
         ) as client:
             resp = client.get(fetch_url)
             resp.raise_for_status()

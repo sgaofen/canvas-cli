@@ -20,6 +20,7 @@ import typer
 from canvasapi.exceptions import CanvasException, Forbidden, ResourceDoesNotExist
 from rich.console import Console
 
+from .. import __version__
 from ..client import get_canvas, get_user_courses
 from ..config import load_config
 from ..extract import extract_by_filename, extract_links, to_markdown
@@ -281,7 +282,7 @@ def _fetch_external(url: str) -> dict:
         with httpx.Client(
             timeout=httpx.Timeout(20.0, read=60.0),
             follow_redirects=True,
-            headers={"User-Agent": "canvas-cli-extract/0.1"},
+            headers={"User-Agent": f"canvas-cli-extract/{__version__}"},
         ) as client:
             resp = client.get(fetch_url)
             resp.raise_for_status()

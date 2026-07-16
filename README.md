@@ -119,6 +119,11 @@ canvas submit <course> <assignment> --text "..." -y          # skip confirm
 canvas ping            # is Canvas reachable + token valid?
 canvas ping --json     # structured for agent / script use
 ```
+Distinguishes:
+- HTTP 200 + JSON → API reachable, authenticated
+- 30x off-domain → Canvas outage (UCI redirects to OIT status page)
+- 401 / 403 → Token rejected
+- Network error → unreachable
 
 ### Take a quiz from the terminal
 ```bash
@@ -149,11 +154,6 @@ canvas quiz <course> <quiz> --take -y           # skip the "complete?" confirm
 | `multiple_dropdowns_question` | `{"<blank_name>": <option_id>, ...}` (dict) | option ids from `qq.answers` grouped by `blank_id` |
 | `file_upload_question` | `<file_id>` or `[<file_id>, ...]` | pre-upload file via Canvas web; only file ids accepted for now |
 | `text_only_question` | — | informational; skip entirely |
-Distinguishes:
-- HTTP 200 + JSON → API reachable, authenticated
-- 30x off-domain → Canvas outage (UCI redirects to OIT status page)
-- 401 / 403 → Token rejected
-- Network error → unreachable
 
 ### Extract — full course knowledge base in one shot
 ```bash
@@ -181,12 +181,14 @@ Wire into Claude Desktop at `~/Library/Application Support/Claude/claude_desktop
 {
   "mcpServers": {
     "canvas": {
-      "command": "/Users/stephenyu/Applications/untitled folder/canvas-cli/.venv/bin/canvas",
+      "command": "/absolute/path/to/canvas-cli/.venv/bin/canvas",
       "args": ["mcp"]
     }
   }
 }
 ```
+Run `which canvas` inside your venv to fill in the absolute `command` path.
+
 Exposes 15 tools: `courses`, `files`, `modules`, `pages`, `syllabus`,
 `read_file`, `read_page`, `read_url`, `assignments`, `grades`,
 `announcements`, `calendar`, `search`, `inbox`, `extract_course`.
@@ -245,9 +247,9 @@ through all these tabs. The CLI provides one entry point per tab, plus
 
 ## Known limits
 
-- `canvas search --content` (FTS5 over PDF text) not yet implemented
-- No MCP server wrapper yet (planned)
-- `canvas sync` doesn't yet sync Module-only files (e.g. PHYSICS 7C has 80+
-  files visible via `canvas modules` that aren't picked up by `canvas sync`)
+- The global `~/CanvasSync/manifest.json` is not written yet (per-course
+  `.canvas-manifest.json` files are).
+- `canvas quiz --take` can't upload files for `file_upload_question` items —
+  pre-upload via Canvas web and pass the resulting file id.
 
 See [SPEC.md](./SPEC.md) for the original design.
